@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer
-      className="flex flex-col w-full border-t gap-4 px-4 py-8
-    md:flex-row md:gap-16 md:pt-8 md:px-12 md:pb-16"
+      className="flex w-full flex-col gap-4 border-t px-4 py-8
+    md:flex-row md:gap-16 md:px-12 md:pb-16 md:pt-8"
     >
       <div className="flex flex-col gap-4">
         <div className="flex gap-2">
@@ -121,7 +121,7 @@ export default function Footer() {
         <Link href="https://www.designit.com">Designit.com</Link>
       </div>
       <div className="hidden lg:flex lg:flex-grow"></div>
-      <div className="flex flex-col gap-4 max-w-xl">
+      <div className="flex max-w-xl flex-col gap-4">
         <p>
           Designit acknowledges the Traditional Custodians of the lands on which
           we work and pay our respects to their Elders past, present and

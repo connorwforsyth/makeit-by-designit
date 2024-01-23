@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import alphabeta from "@/styles/alphabetaFont";
+import Texture from "@/components/BackgroundTexture";
 
 const inter = Inter({ subsets: ["latin"] });
 import Footer from "@/components/Footer";
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
   title: "Makeit — By Designit",
   description:
     "Your team, your users and our squad, creating a prototype that can be tested with your customers right away.",
+  metadataBase: new URL("https://makeit-by-designit.vercel.app/"),
   openGraph: {
     title: "Makeit",
     description:
@@ -41,11 +43,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={alphabeta.className}>
-        <div className="min-h-screen flex flex-col">
-          {children}
-          <Footer />
-        </div>
+      <body
+        style={{
+          backdropFilter: "url(#grainy)",
+        }}
+        className={`flex min-h-screen flex-col overflow-x-hidden antialiased ${alphabeta.className}`}
+      >
+        <Texture />
+        {children}
+        <Footer />
       </body>
     </html>
   );

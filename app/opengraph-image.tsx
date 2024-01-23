@@ -81,6 +81,6 @@ export default async function Image() {
           />
         </svg>
       </div>
-    )
+    ),
   );
 }
