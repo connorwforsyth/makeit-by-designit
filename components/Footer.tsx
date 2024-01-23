@@ -4,7 +4,7 @@ import TorresFlag from "./Icons/TorrensFlag";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="w-full pt-8 px-12 pb-16 gap-36 flex border-t">
+    <footer className="w-full pt-8 px-12 pb-16 gap-36 flex border-t ">
       <div className="flex flex-col gap-4">
         <div className="flex gap-2">
           <Image
@@ -21,9 +21,9 @@ export default function Footer() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        {/* logos */}
         <ul className="flex gap-4">
-          <Link alt="X (Twitter)" href="">
+          {/* Note to self: Whats the best way to include alt tags when using svg icons for nextjs Link tag? */}
+          <Link href="https://twitter.com/designit">
             <svg
               width="16"
               height="16"
@@ -37,7 +37,7 @@ export default function Footer() {
               />
             </svg>
           </Link>
-          <Link alt="Facebook" href="">
+          <Link href="https://www.facebook.com/SocialDesignit">
             <svg
               width="16"
               height="16"
@@ -58,7 +58,7 @@ export default function Footer() {
               </defs>
             </svg>
           </Link>
-          <Link alt="LinkedIn" href="">
+          <Link href="https://linkedin.com/company/designit">
             <svg
               width="14"
               height="16"
@@ -72,7 +72,7 @@ export default function Footer() {
               />
             </svg>
           </Link>
-          <Link alt="Threads" href="">
+          <Link href="https://threads.net/designit">
             <svg
               width="14"
               height="16"
@@ -93,7 +93,7 @@ export default function Footer() {
               </defs>
             </svg>
           </Link>
-          <Link alt="Instagram" href="">
+          <Link href="https://instagram.com/designit">
             <svg
               width="14"
               height="16"
