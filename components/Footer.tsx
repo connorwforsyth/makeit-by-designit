@@ -2,14 +2,15 @@ import Link from "next/link";
 import AboriginalFlag from "./Icons/AboriginalFlag";
 import TorresFlag from "./Icons/TorrensFlag";
 import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer
-      className="flex w-full flex-col gap-4 border-t px-4 py-8
+      className="flex w-full flex-col gap-4 border-t border-gray-400 bg-neutral-900 px-4 py-8 backdrop-blur-md
     md:flex-row md:gap-16 md:px-12 md:pb-16 md:pt-8"
     >
-      <div className="flex flex-col gap-4">
-        <div className="flex gap-2">
+      <div className="flex max-w-sm flex-col gap-4">
+        <div className="flex h-4 items-center gap-2">
           <Image
             alt="Makeit Logo From Designit"
             width="70"
@@ -18,13 +19,13 @@ export default function Footer() {
           ></Image>
           <p>— by Designit</p>
         </div>
-        <p>
+        <p className="text-gray-300">
           Makeit is a venture project by Designit, a Wipro company, created by
           our Australian studios.
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <ul className="flex gap-4">
+        <ul className="flex h-4 gap-4">
           {/* Note to self: Whats the best way to include alt tags when using svg icons for nextjs Link tag? */}
           <Link href="https://twitter.com/designit">
             <svg

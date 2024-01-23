@@ -1,25 +1,23 @@
-import MakeitLogo from "./Icons/MakeitLogo";
-import Arrow from "./Icons/Arrow";
-import Download from "./Icons/DownloadIcon";
+import MakeitLogo from "../Icons/MakeitLogo";
+import Arrow from "../Icons/Arrow";
+import Download from "../Icons/DownloadIcon";
 import Link from "next/link";
-import DownloadButton from "./vaul";
-import Illustrations from "./illustrations";
+import DownloadButton from "../vaul";
 export default function Hero() {
   return (
-    <main className="relative mx-auto flex h-full w-full max-w-3xl flex-col gap-4 px-4 py-24">
-      {/* <Illustrations /> */}
-      <h1 className="flex flex-col gap-1 text-6xl">
+    <main className="relative m-auto flex h-full w-full max-w-3xl flex-col gap-4 px-4 ">
+      <h1 className="flex flex-col gap-1 text-4xl lg:text-6xl">
         <div className="relative">
-          <div className="relative flex items-center justify-center">
-            <MakeitLogo aria-hidden="true" />
-            <div
-              style={{
-                background:
-                  "radial-gradient(46.94% 46.94% at 50% 50%, rgba(50, 50, 224, 0.37) 0%, rgba(50, 50, 224, 0.00) 100%)",
-              }}
-              className="absolute  left-1/3 top-1/2 z-[-1] h-[300px] w-[1500px] -translate-x-1/2 -translate-y-1/2 rotate-[1.18deg] transform rounded-[20%]"
-            />
+          <div className="w-2/3">
+            <MakeitLogo aria-hidden="true" className="h-auto max-h-full" />
           </div>
+          <div
+            style={{
+              background:
+                "radial-gradient(46.94% 46.94% at 50% 50%, rgba(50, 50, 224, 0.37) 0%, rgba(50, 50, 224, 0.00) 100%)",
+            }}
+            className="absolute  left-1/3 top-1/2 z-[-1] h-[300px] w-[1500px] -translate-x-1/2 -translate-y-1/2 rotate-[1.18deg] transform rounded-[20%]"
+          />
         </div>
         <span className="sr-only relative">Makeit</span>
         <div className="flex justify-end">
@@ -33,12 +31,12 @@ export default function Hero() {
           can be tested with your customers right away.
         </p>
         <div className="flex-grow"></div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-8">
           <p>
             Our website is still coming soon but if you’d like to know more,
             download the PDF below or get in touch.
           </p>
-          <div className="flex gap-2">
+          <div className="flex gap-4">
             <Link
               href="/Makeit-by-Designit.pdf"
               download="Makeit - By Designit"

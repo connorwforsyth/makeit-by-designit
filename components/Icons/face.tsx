@@ -2,3498 +2,1127 @@ import * as React from "react";
 
 const FaceIcon = ({ className }: { className: string }) => (
   <svg
-    width="100%"
-    height="100%"
+    width="33"
+    height="51"
+    viewBox="0 0 33 51"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-    className={className}
+    xmlns:xlink="http://www.w3.org/1999/xlink"
   >
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M161.01 80.563h-80v80.165h40c0-10.578 4.2-20.716 11.69-28.187a39.934 39.934 0 0 1 28.23-11.676h.08V80.563Z"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M32.4315 25.582H7.71729V50.3473H20.0744C20.0744 47.0796 21.3719 43.9477 23.6858 41.6396C25.9996 39.3285 29.1352 38.0325 32.4068 38.0325H32.4315V25.5851V25.582Z"
       fill="#D6D6D6"
-      stroke="#000"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke="black"
+      stroke-width="0.617854"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
     <path
-      d="M81 1H1v39.953h80V1Z"
+      d="M7.71417 1H-17V13.3425H7.71417V1Z"
       fill="#D6D6D6"
-      stroke="#000"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke="black"
+      stroke-width="0.617854"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M81 40.953H1L34.19 60.59H81V40.953Z"
-      fill="#000"
-      stroke="#000"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M7.71417 13.3438H-17L-6.74671 19.4101H7.71417V13.3438Z"
+      fill="black"
+      stroke="black"
+      stroke-width="0.617854"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
     <path
-      d="M161 1H81v79.566h80V1ZM81 80.563H1v80.245h80V80.563Z"
-      fill="#fff"
-      stroke="#000"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      d="M32.4283 1H7.71411V25.5801H32.4283V1Z"
+      fill="white"
+      stroke="black"
+      stroke-width="0.617854"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M7.71417 25.582H-17V50.3719H7.71417V25.582Z"
+      fill="white"
+      stroke="black"
+      stroke-width="0.617854"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
     <mask
-      id="a"
-      style={{
-        maskType: "luminance",
-      }}
+      id="mask0_426_42801"
+      style="mask-type:luminance"
       maskUnits="userSpaceOnUse"
-      x={1}
-      y={80}
-      width={80}
-      height={81}
+      x="-17"
+      y="25"
+      width="25"
+      height="26"
     >
-      <path d="M81 80.563H1v80.245h80V80.563Z" fill="#fff" />
+      <path d="M7.71417 25.5781H-17V50.368H7.71417V25.5781Z" fill="white" />
     </mask>
-    <g mask="url(#a)">
+    <g mask="url(#mask0_426_42801)">
       <mask
-        id="b"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask1_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={11}
-        y={116}
-        width={3}
-        height={3}
+        x="0"
+        y="38"
+        width="2"
+        height="2"
       >
         <path
-          d="M12.41 116.039c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M0.688122 38.5625C0.91055 38.5625 1.09284 38.7446 1.09284 38.9667C1.09284 39.1889 0.91055 39.3709 0.688122 39.3709C0.465695 39.3709 0.283447 39.1889 0.283447 38.9667C0.283447 38.7446 0.465695 38.5625 0.688122 38.5625Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#b)">
+      <g mask="url(#mask1_426_42801)">
         <mask
-          id="c"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask2_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={11}
-          y={116}
-          width={3}
-          height={3}
+          x="0"
+          y="38"
+          width="2"
+          height="2"
         >
-          <path d="M13.72 116.039H11.1v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M1.0921 38.5625H0.282715V39.3709H1.0921V38.5625Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#c)">
-          <path fill="url(#d)" d="M11.1 116.039h2.61v2.607H11.1z" />
+        <g mask="url(#mask2_426_42801)">
+          <rect
+            x="0.282715"
+            y="38.5625"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern0)"
+          />
         </g>
       </g>
       <mask
-        id="e"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask3_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={11}
-        y={129}
-        width={3}
-        height={3}
+        x="0"
+        y="42"
+        width="2"
+        height="2"
       >
         <path
-          d="M12.41 129.125c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
+          d="M0.688122 42.6016C0.91055 42.6016 1.09284 42.7836 1.09284 43.0058C1.09284 43.2279 0.91055 43.41 0.688122 43.41C0.465695 43.41 0.283447 43.2279 0.283447 43.0058C0.283447 42.7836 0.465695 42.6016 0.688122 42.6016Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#e)">
+      <g mask="url(#mask3_426_42801)">
         <mask
-          id="f"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask4_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={11}
-          y={129}
-          width={3}
-          height={3}
+          x="0"
+          y="42"
+          width="2"
+          height="2"
         >
-          <path d="M13.72 129.125H11.1v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M1.0921 42.6016H0.282715V43.41H1.0921V42.6016Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#f)">
-          <path fill="url(#g)" d="M11.1 129.125h2.61v2.607H11.1z" />
+        <g mask="url(#mask4_426_42801)">
+          <rect
+            x="0.282715"
+            y="42.6016"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern1)"
+          />
         </g>
       </g>
       <mask
-        id="h"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask5_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={11}
-        y={142}
-        width={3}
-        height={3}
+        x="0"
+        y="46"
+        width="2"
+        height="2"
       >
         <path
-          d="M12.41 142.195c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M0.688122 46.6406C0.91055 46.6406 1.09284 46.8227 1.09284 47.0448C1.09284 47.267 0.91055 47.4491 0.688122 47.4491C0.465695 47.4491 0.283447 47.267 0.283447 47.0448C0.283447 46.8227 0.465695 46.6406 0.688122 46.6406Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#h)">
+      <g mask="url(#mask5_426_42801)">
         <mask
-          id="i"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask6_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={11}
-          y={142}
-          width={3}
-          height={3}
+          x="0"
+          y="46"
+          width="2"
+          height="2"
         >
-          <path d="M13.72 142.195H11.1v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M1.0921 46.6406H0.282715V47.4491H1.0921V46.6406Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#i)">
-          <path fill="url(#j)" d="M11.1 142.195h2.61v2.607H11.1z" />
+        <g mask="url(#mask6_426_42801)">
+          <rect
+            x="0.282715"
+            y="46.6406"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern2)"
+          />
         </g>
       </g>
       <mask
-        id="k"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask7_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={11}
-        y={155}
-        width={3}
-        height={3}
+        x="0"
+        y="26"
+        width="2"
+        height="2"
       >
         <path
-          d="M12.41 155.281c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M0.688122 26.4336C0.91055 26.4336 1.09284 26.6156 1.09284 26.8378C1.09284 27.06 0.91055 27.242 0.688122 27.242C0.465695 27.242 0.283447 27.06 0.283447 26.8378C0.283447 26.6156 0.465695 26.4336 0.688122 26.4336Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#k)">
+      <g mask="url(#mask7_426_42801)">
         <mask
-          id="l"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask8_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={11}
-          y={155}
-          width={3}
-          height={3}
+          x="0"
+          y="26"
+          width="2"
+          height="2"
         >
-          <path d="M13.72 155.281H11.1v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M1.0921 26.4336H0.282715V27.242H1.0921V26.4336Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#l)">
-          <path fill="url(#m)" d="M11.1 155.281h2.61v2.607H11.1z" />
+        <g mask="url(#mask8_426_42801)">
+          <rect
+            x="0.282715"
+            y="26.4336"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern3)"
+          />
         </g>
       </g>
       <mask
-        id="n"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask9_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={11}
-        y={89}
-        width={3}
-        height={4}
+        x="0"
+        y="30"
+        width="2"
+        height="2"
       >
         <path
-          d="M12.41 92.484a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.001 2.618Z"
-          fill="#fff"
+          d="M0.688122 30.4766C0.91055 30.4766 1.09284 30.6586 1.09284 30.8808C1.09284 31.1029 0.91055 31.285 0.688122 31.285C0.465695 31.285 0.283447 31.1029 0.283447 30.8808C0.283447 30.6586 0.465695 30.4766 0.688122 30.4766Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#n)">
+      <g mask="url(#mask9_426_42801)">
         <mask
-          id="o"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask10_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={11}
-          y={89}
-          width={3}
-          height={4}
+          x="0"
+          y="30"
+          width="2"
+          height="2"
         >
-          <path d="M13.72 89.867H11.1v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M1.0921 30.4766H0.282715V31.285H1.0921V30.4766Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#o)">
-          <path fill="url(#p)" d="M11.1 89.867h2.61v2.607H11.1z" />
+        <g mask="url(#mask10_426_42801)">
+          <rect
+            x="0.282715"
+            y="30.4766"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern4)"
+          />
         </g>
       </g>
       <mask
-        id="q"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask11_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={11}
-        y={102}
-        width={3}
-        height={4}
+        x="0"
+        y="34"
+        width="2"
+        height="2"
       >
         <path
-          d="M12.41 105.57a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.001 2.618Z"
-          fill="#fff"
+          d="M0.688122 34.5195C0.91055 34.5195 1.09284 34.7016 1.09284 34.9237C1.09284 35.1459 0.91055 35.328 0.688122 35.328C0.465695 35.328 0.283447 35.1459 0.283447 34.9237C0.283447 34.7016 0.465695 34.5195 0.688122 34.5195Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#q)">
+      <g mask="url(#mask11_426_42801)">
         <mask
-          id="r"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask12_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={11}
-          y={102}
-          width={3}
-          height={4}
+          x="0"
+          y="34"
+          width="2"
+          height="2"
         >
-          <path d="M13.72 102.953H11.1v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M1.0921 34.5195H0.282715V35.328H1.0921V34.5195Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#r)">
-          <path fill="url(#s)" d="M11.1 102.953h2.61v2.607H11.1z" />
+        <g mask="url(#mask12_426_42801)">
+          <rect
+            x="0.282715"
+            y="34.5195"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern5)"
+          />
         </g>
       </g>
       <mask
-        id="t"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask13_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={4}
-        y={122}
-        width={4}
-        height={4}
+        x="4"
+        y="38"
+        width="2"
+        height="2"
       >
         <path
-          d="M5.86 122.578c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M4.73353 38.5625C4.95596 38.5625 5.13825 38.7446 5.13825 38.9667C5.13825 39.1889 4.95596 39.3709 4.73353 39.3709C4.5111 39.3709 4.32886 39.1889 4.32886 38.9667C4.32886 38.7446 4.5111 38.5625 4.73353 38.5625Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#t)">
+      <g mask="url(#mask13_426_42801)">
         <mask
-          id="u"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask14_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={4}
-          y={122}
-          width={4}
-          height={4}
+          x="4"
+          y="38"
+          width="2"
+          height="2"
         >
-          <path d="M7.17 122.578H4.55v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M5.13922 38.5625H4.32983V39.3709H5.13922V38.5625Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#u)">
-          <path fill="url(#v)" d="M4.55 122.578h2.61v2.607H4.55z" />
+        <g mask="url(#mask14_426_42801)">
+          <rect
+            x="4.32983"
+            y="38.5625"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern6)"
+          />
         </g>
       </g>
       <mask
-        id="w"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask15_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={4}
-        y={135}
-        width={4}
-        height={4}
+        x="4"
+        y="42"
+        width="2"
+        height="2"
       >
         <path
-          d="M5.86 135.656c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M4.73353 42.6016C4.95596 42.6016 5.13825 42.7836 5.13825 43.0058C5.13825 43.2279 4.95596 43.41 4.73353 43.41C4.5111 43.41 4.32886 43.2279 4.32886 43.0058C4.32886 42.7836 4.5111 42.6016 4.73353 42.6016Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#w)">
+      <g mask="url(#mask15_426_42801)">
         <mask
-          id="x"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask16_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={4}
-          y={135}
-          width={4}
-          height={4}
+          x="4"
+          y="42"
+          width="2"
+          height="2"
         >
-          <path d="M7.17 135.656H4.55v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M5.13922 42.6016H4.32983V43.41H5.13922V42.6016Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#x)">
-          <path fill="url(#y)" d="M4.55 135.656h2.61v2.607H4.55z" />
+        <g mask="url(#mask16_426_42801)">
+          <rect
+            x="4.32983"
+            y="42.6016"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern7)"
+          />
         </g>
       </g>
       <mask
-        id="z"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask17_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={4}
-        y={148}
-        width={4}
-        height={4}
+        x="4"
+        y="46"
+        width="2"
+        height="2"
       >
         <path
-          d="M5.86 148.742c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M4.73353 46.6406C4.95596 46.6406 5.13825 46.8227 5.13825 47.0448C5.13825 47.267 4.95596 47.4491 4.73353 47.4491C4.5111 47.4491 4.32886 47.267 4.32886 47.0448C4.32886 46.8227 4.5111 46.6406 4.73353 46.6406Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#z)">
+      <g mask="url(#mask17_426_42801)">
         <mask
-          id="A"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask18_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={4}
-          y={148}
-          width={4}
-          height={4}
+          x="4"
+          y="46"
+          width="2"
+          height="2"
         >
-          <path d="M7.17 148.742H4.55v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M5.13922 46.6406H4.32983V47.4491H5.13922V46.6406Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#A)">
-          <path fill="url(#B)" d="M4.55 148.742h2.61v2.607H4.55z" />
+        <g mask="url(#mask18_426_42801)">
+          <rect
+            x="4.32983"
+            y="46.6406"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern8)"
+          />
         </g>
       </g>
       <mask
-        id="C"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask19_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={4}
-        y={83}
-        width={4}
-        height={3}
+        x="4"
+        y="26"
+        width="2"
+        height="2"
       >
         <path
-          d="M5.86 85.945a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.001 2.618Z"
-          fill="#fff"
+          d="M4.73353 26.4336C4.95596 26.4336 5.13825 26.6156 5.13825 26.8378C5.13825 27.06 4.95596 27.242 4.73353 27.242C4.5111 27.242 4.32886 27.06 4.32886 26.8378C4.32886 26.6156 4.5111 26.4336 4.73353 26.4336Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#C)">
+      <g mask="url(#mask19_426_42801)">
         <mask
-          id="D"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask20_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={4}
-          y={83}
-          width={4}
-          height={3}
+          x="4"
+          y="26"
+          width="2"
+          height="2"
         >
-          <path d="M7.17 83.328H4.55v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M5.13922 26.4336H4.32983V27.242H5.13922V26.4336Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#D)">
-          <path fill="url(#E)" d="M4.55 83.328h2.61v2.607H4.55z" />
+        <g mask="url(#mask20_426_42801)">
+          <rect
+            x="4.32983"
+            y="26.4336"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern9)"
+          />
         </g>
       </g>
       <mask
-        id="F"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask21_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={4}
-        y={96}
-        width={4}
-        height={4}
+        x="4"
+        y="30"
+        width="2"
+        height="2"
       >
         <path
-          d="M5.86 99.031a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.001 2.618Z"
-          fill="#fff"
+          d="M4.73353 30.4766C4.95596 30.4766 5.13825 30.6586 5.13825 30.8808C5.13825 31.1029 4.95596 31.285 4.73353 31.285C4.5111 31.285 4.32886 31.1029 4.32886 30.8808C4.32886 30.6586 4.5111 30.4766 4.73353 30.4766Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#F)">
+      <g mask="url(#mask21_426_42801)">
         <mask
-          id="G"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask22_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={4}
-          y={96}
-          width={4}
-          height={4}
+          x="4"
+          y="30"
+          width="2"
+          height="2"
         >
-          <path d="M7.17 96.414H4.55v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M5.13922 30.4766H4.32983V31.285H5.13922V30.4766Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#G)">
-          <path fill="url(#H)" d="M4.55 96.414h2.61v2.607H4.55z" />
+        <g mask="url(#mask22_426_42801)">
+          <rect
+            x="4.32983"
+            y="30.4766"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern10)"
+          />
         </g>
       </g>
       <mask
-        id="I"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask23_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={4}
-        y={109}
-        width={4}
-        height={4}
+        x="4"
+        y="34"
+        width="2"
+        height="2"
       >
         <path
-          d="M5.86 112.117a1.31 1.31 0 1 0 0-2.619 1.31 1.31 0 0 0 0 2.619Z"
-          fill="#fff"
+          d="M4.73353 34.5195C4.95596 34.5195 5.13825 34.7016 5.13825 34.9237C5.13825 35.1459 4.95596 35.328 4.73353 35.328C4.5111 35.328 4.32886 35.1459 4.32886 34.9237C4.32886 34.7016 4.5111 34.5195 4.73353 34.5195Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#I)">
+      <g mask="url(#mask23_426_42801)">
         <mask
-          id="J"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask24_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={4}
-          y={109}
-          width={4}
-          height={4}
+          x="4"
+          y="34"
+          width="2"
+          height="2"
         >
-          <path d="M7.17 109.5H4.55v2.617h2.62V109.5Z" fill="#fff" />
+          <path
+            d="M5.13922 34.5195H4.32983V35.328H5.13922V34.5195Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#J)">
-          <path fill="url(#K)" d="M4.55 109.5h2.61v2.607H4.55z" />
+        <g mask="url(#mask24_426_42801)">
+          <rect
+            x="4.32983"
+            y="34.5195"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern11)"
+          />
         </g>
       </g>
       <mask
-        id="L"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask25_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={17}
-        y={122}
-        width={4}
-        height={4}
+        x="2"
+        y="36"
+        width="2"
+        height="2"
       >
         <path
-          d="M18.96 122.578c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M2.71111 36.5391C2.93354 36.5391 3.11578 36.7211 3.11578 36.9433C3.11578 37.1654 2.93354 37.3475 2.71111 37.3475C2.48868 37.3475 2.3064 37.1654 2.3064 36.9433C2.3064 36.7211 2.48868 36.5391 2.71111 36.5391Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#L)">
+      <g mask="url(#mask25_426_42801)">
         <mask
-          id="M"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask26_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={17}
-          y={122}
-          width={4}
-          height={4}
+          x="2"
+          y="36"
+          width="2"
+          height="2"
         >
-          <path d="M20.27 122.578h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M3.11774 36.5391H2.30835V37.3475H3.11774V36.5391Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#M)">
-          <path fill="url(#N)" d="M17.649 122.578h2.61v2.607h-2.61z" />
+        <g mask="url(#mask26_426_42801)">
+          <rect
+            x="2.30835"
+            y="36.5391"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern12)"
+          />
         </g>
       </g>
       <mask
-        id="O"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask27_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={17}
-        y={135}
-        width={4}
-        height={4}
+        x="2"
+        y="40"
+        width="2"
+        height="2"
       >
         <path
-          d="M18.96 135.656c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M2.71111 40.582C2.93354 40.582 3.11578 40.7641 3.11578 40.9862C3.11578 41.2084 2.93354 41.3905 2.71111 41.3905C2.48868 41.3905 2.3064 41.2084 2.3064 40.9862C2.3064 40.7641 2.48868 40.582 2.71111 40.582Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#O)">
+      <g mask="url(#mask27_426_42801)">
         <mask
-          id="P"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask28_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={17}
-          y={135}
-          width={4}
-          height={4}
+          x="2"
+          y="40"
+          width="2"
+          height="2"
         >
-          <path d="M20.27 135.656h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M3.11798 40.582H2.30859V41.3905H3.11798V40.582Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#P)">
-          <path fill="url(#Q)" d="M17.649 135.656h2.61v2.607h-2.61z" />
+        <g mask="url(#mask28_426_42801)">
+          <rect
+            x="2.30859"
+            y="40.582"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern13)"
+          />
         </g>
       </g>
       <mask
-        id="R"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask29_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={17}
-        y={148}
-        width={4}
-        height={4}
+        x="2"
+        y="44"
+        width="2"
+        height="2"
       >
         <path
-          d="M18.96 148.742c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M2.71111 44.6211C2.93354 44.6211 3.11578 44.8032 3.11578 45.0253C3.11578 45.2475 2.93354 45.4295 2.71111 45.4295C2.48868 45.4295 2.3064 45.2475 2.3064 45.0253C2.3064 44.8032 2.48868 44.6211 2.71111 44.6211Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#R)">
+      <g mask="url(#mask29_426_42801)">
         <mask
-          id="S"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask30_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={17}
-          y={148}
-          width={4}
-          height={4}
+          x="2"
+          y="44"
+          width="2"
+          height="2"
         >
-          <path d="M20.27 148.742h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M3.11798 44.6211H2.30859V45.4295H3.11798V44.6211Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#S)">
-          <path fill="url(#T)" d="M17.649 148.742h2.61v2.607h-2.61z" />
+        <g mask="url(#mask30_426_42801)">
+          <rect
+            x="2.30859"
+            y="44.6211"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern14)"
+          />
         </g>
       </g>
       <mask
-        id="U"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask31_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={17}
-        y={83}
-        width={4}
-        height={3}
+        x="2"
+        y="48"
+        width="2"
+        height="2"
       >
         <path
-          d="M18.96 85.945a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.002 2.618Z"
-          fill="#fff"
+          d="M2.71111 48.6641C2.93354 48.6641 3.11578 48.8461 3.11578 49.0683C3.11578 49.2904 2.93354 49.4725 2.71111 49.4725C2.48868 49.4725 2.3064 49.2904 2.3064 49.0683C2.3064 48.8461 2.48868 48.6641 2.71111 48.6641Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#U)">
+      <g mask="url(#mask31_426_42801)">
         <mask
-          id="V"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask32_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={17}
-          y={83}
-          width={4}
-          height={3}
+          x="2"
+          y="48"
+          width="2"
+          height="2"
         >
-          <path d="M20.27 83.328h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M3.11798 48.6641H2.30859V49.4725H3.11798V48.6641Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#V)">
-          <path fill="url(#W)" d="M17.649 83.328h2.61v2.607h-2.61z" />
+        <g mask="url(#mask32_426_42801)">
+          <rect
+            x="2.30859"
+            y="48.6641"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern15)"
+          />
         </g>
       </g>
       <mask
-        id="X"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask33_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={17}
-        y={96}
-        width={4}
-        height={4}
+        x="2"
+        y="28"
+        width="2"
+        height="2"
       >
         <path
-          d="M18.96 99.031a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.002 2.618Z"
-          fill="#fff"
+          d="M2.71111 28.457C2.93354 28.457 3.11578 28.6391 3.11578 28.8612C3.11578 29.0834 2.93354 29.2655 2.71111 29.2655C2.48868 29.2655 2.3064 29.0834 2.3064 28.8612C2.3064 28.6391 2.48868 28.457 2.71111 28.457Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#X)">
+      <g mask="url(#mask33_426_42801)">
         <mask
-          id="Y"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask34_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={17}
-          y={96}
-          width={4}
-          height={4}
+          x="2"
+          y="28"
+          width="2"
+          height="2"
         >
-          <path d="M20.27 96.414h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M3.11798 28.457H2.30859V29.2655H3.11798V28.457Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#Y)">
-          <path fill="url(#Z)" d="M17.649 96.414h2.61v2.607h-2.61z" />
+        <g mask="url(#mask34_426_42801)">
+          <rect
+            x="2.30859"
+            y="28.457"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern16)"
+          />
         </g>
       </g>
       <mask
-        id="aa"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask35_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={17}
-        y={109}
-        width={4}
-        height={4}
+        x="2"
+        y="32"
+        width="2"
+        height="2"
       >
         <path
-          d="M18.96 112.117a1.31 1.31 0 1 0 0-2.619 1.31 1.31 0 0 0 0 2.619Z"
-          fill="#fff"
+          d="M2.71111 32.4961C2.93354 32.4961 3.11578 32.6781 3.11578 32.9003C3.11578 33.1225 2.93354 33.3045 2.71111 33.3045C2.48868 33.3045 2.3064 33.1225 2.3064 32.9003C2.3064 32.6781 2.48868 32.4961 2.71111 32.4961Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#aa)">
+      <g mask="url(#mask35_426_42801)">
         <mask
-          id="ab"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask36_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={17}
-          y={109}
-          width={4}
-          height={4}
+          x="2"
+          y="32"
+          width="2"
+          height="2"
         >
-          <path d="M20.27 109.5h-2.62v2.617h2.62V109.5Z" fill="#fff" />
+          <path
+            d="M3.11774 32.4961H2.30835V33.3045H3.11774V32.4961Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#ab)">
-          <path fill="url(#ac)" d="M17.649 109.5h2.61v2.607h-2.61z" />
+        <g mask="url(#mask36_426_42801)">
+          <rect
+            x="2.30835"
+            y="32.4961"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern17)"
+          />
         </g>
       </g>
       <mask
-        id="ad"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask37_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={30}
-        y={122}
-        width={4}
-        height={4}
+        x="6"
+        y="36"
+        width="2"
+        height="2"
       >
         <path
-          d="M32.06 122.578c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M6.75603 36.5391C6.97846 36.5391 7.16074 36.7211 7.16074 36.9433C7.16074 37.1654 6.97846 37.3475 6.75603 37.3475C6.5336 37.3475 6.35132 37.1654 6.35132 36.9433C6.35132 36.7211 6.5336 36.5391 6.75603 36.5391Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#ad)">
+      <g mask="url(#mask37_426_42801)">
         <mask
-          id="ae"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask38_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={30}
-          y={122}
-          width={4}
-          height={4}
+          x="6"
+          y="36"
+          width="2"
+          height="2"
         >
-          <path d="M33.37 122.578h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M7.16123 36.5391H6.35181V37.3475H7.16123V36.5391Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#ae)">
-          <path fill="url(#af)" d="M30.75 122.578h2.61v2.607h-2.61z" />
+        <g mask="url(#mask38_426_42801)">
+          <rect
+            x="6.35181"
+            y="36.5391"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern18)"
+          />
         </g>
       </g>
       <mask
-        id="ag"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask39_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={30}
-        y={135}
-        width={4}
-        height={4}
+        x="6"
+        y="40"
+        width="2"
+        height="2"
       >
         <path
-          d="M32.06 135.656c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M6.75579 40.582C6.97821 40.582 7.1605 40.7641 7.1605 40.9862C7.1605 41.2084 6.97821 41.3905 6.75579 41.3905C6.53336 41.3905 6.35107 41.2084 6.35107 40.9862C6.35107 40.7641 6.53336 40.582 6.75579 40.582Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#ag)">
+      <g mask="url(#mask39_426_42801)">
         <mask
-          id="ah"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask40_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={30}
-          y={135}
-          width={4}
-          height={4}
+          x="6"
+          y="40"
+          width="2"
+          height="2"
         >
-          <path d="M33.37 135.656h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M7.16074 40.582H6.35132V41.3905H7.16074V40.582Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#ah)">
-          <path fill="url(#ai)" d="M30.75 135.656h2.61v2.607h-2.61z" />
+        <g mask="url(#mask40_426_42801)">
+          <rect
+            x="6.35132"
+            y="40.582"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern19)"
+          />
         </g>
       </g>
       <mask
-        id="aj"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask41_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={30}
-        y={148}
-        width={4}
-        height={4}
+        x="6"
+        y="44"
+        width="2"
+        height="2"
       >
         <path
-          d="M32.06 148.742c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
+          d="M6.75579 44.6211C6.97821 44.6211 7.1605 44.8032 7.1605 45.0253C7.1605 45.2475 6.97821 45.4295 6.75579 45.4295C6.53336 45.4295 6.35107 45.2475 6.35107 45.0253C6.35107 44.8032 6.53336 44.6211 6.75579 44.6211Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#aj)">
+      <g mask="url(#mask41_426_42801)">
         <mask
-          id="ak"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask42_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={30}
-          y={148}
-          width={4}
-          height={4}
+          x="6"
+          y="44"
+          width="2"
+          height="2"
         >
-          <path d="M33.37 148.742h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M7.16074 44.6211H6.35132V45.4295H7.16074V44.6211Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#ak)">
-          <path fill="url(#al)" d="M30.75 148.742h2.61v2.607h-2.61z" />
+        <g mask="url(#mask42_426_42801)">
+          <rect
+            x="6.35132"
+            y="44.6211"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern20)"
+          />
         </g>
       </g>
       <mask
-        id="am"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask43_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={30}
-        y={83}
-        width={4}
-        height={3}
+        x="6"
+        y="48"
+        width="2"
+        height="2"
       >
         <path
-          d="M32.06 85.945a1.31 1.31 0 1 0 .002-2.618 1.31 1.31 0 0 0-.002 2.618Z"
-          fill="#fff"
+          d="M6.75579 48.6641C6.97821 48.6641 7.1605 48.8461 7.1605 49.0683C7.1605 49.2904 6.97821 49.4725 6.75579 49.4725C6.53336 49.4725 6.35107 49.2904 6.35107 49.0683C6.35107 48.8461 6.53336 48.6641 6.75579 48.6641Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#am)">
+      <g mask="url(#mask43_426_42801)">
         <mask
-          id="an"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask44_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={30}
-          y={83}
-          width={4}
-          height={3}
+          x="6"
+          y="48"
+          width="2"
+          height="2"
         >
-          <path d="M33.37 83.328h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M7.16074 48.6641H6.35132V49.4725H7.16074V48.6641Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#an)">
-          <path fill="url(#ao)" d="M30.75 83.328h2.61v2.607h-2.61z" />
+        <g mask="url(#mask44_426_42801)">
+          <rect
+            x="6.35132"
+            y="48.6641"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern21)"
+          />
         </g>
       </g>
       <mask
-        id="ap"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask45_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={30}
-        y={96}
-        width={4}
-        height={4}
+        x="6"
+        y="28"
+        width="2"
+        height="2"
       >
         <path
-          d="M32.06 99.031a1.31 1.31 0 1 0 .002-2.618 1.31 1.31 0 0 0-.002 2.618Z"
-          fill="#fff"
+          d="M6.75579 28.457C6.97821 28.457 7.1605 28.6391 7.1605 28.8612C7.1605 29.0834 6.97821 29.2655 6.75579 29.2655C6.53336 29.2655 6.35107 29.0834 6.35107 28.8612C6.35107 28.6391 6.53336 28.457 6.75579 28.457Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#ap)">
+      <g mask="url(#mask45_426_42801)">
         <mask
-          id="aq"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask46_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={30}
-          y={96}
-          width={4}
-          height={4}
+          x="6"
+          y="28"
+          width="2"
+          height="2"
         >
-          <path d="M33.37 96.414h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
+          <path
+            d="M7.16074 28.457H6.35132V29.2655H7.16074V28.457Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#aq)">
-          <path fill="url(#ar)" d="M30.75 96.414h2.61v2.607h-2.61z" />
+        <g mask="url(#mask46_426_42801)">
+          <rect
+            x="6.35132"
+            y="28.457"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern22)"
+          />
         </g>
       </g>
       <mask
-        id="as"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask47_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={30}
-        y={109}
-        width={4}
-        height={4}
+        x="6"
+        y="32"
+        width="2"
+        height="2"
       >
         <path
-          d="M32.06 112.117a1.31 1.31 0 1 0 .001-2.619 1.31 1.31 0 0 0-.001 2.619Z"
-          fill="#fff"
+          d="M6.75603 32.4961C6.97846 32.4961 7.16074 32.6781 7.16074 32.9003C7.16074 33.1225 6.97846 33.3045 6.75603 33.3045C6.5336 33.3045 6.35132 33.1225 6.35132 32.9003C6.35132 32.6781 6.5336 32.4961 6.75603 32.4961Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#as)">
+      <g mask="url(#mask47_426_42801)">
         <mask
-          id="at"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask48_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={30}
-          y={109}
-          width={4}
-          height={4}
+          x="6"
+          y="32"
+          width="2"
+          height="2"
         >
-          <path d="M33.37 109.5h-2.62v2.617h2.62V109.5Z" fill="#fff" />
+          <path
+            d="M7.16123 32.4961H6.35181V33.3045H7.16123V32.4961Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#at)">
-          <path fill="url(#au)" d="M30.75 109.5h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="av"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={43}
-        y={122}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M45.16 122.578c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#av)">
-        <mask
-          id="aw"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={43}
-          y={122}
-          width={4}
-          height={4}
-        >
-          <path d="M46.47 122.578h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aw)">
-          <path fill="url(#ax)" d="M43.85 122.578h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="ay"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={43}
-        y={135}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M45.16 135.656c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#ay)">
-        <mask
-          id="az"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={43}
-          y={135}
-          width={4}
-          height={4}
-        >
-          <path d="M46.47 135.656h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#az)">
-          <path fill="url(#aA)" d="M43.85 135.656h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aB"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={43}
-        y={148}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M45.16 148.742c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aB)">
-        <mask
-          id="aC"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={43}
-          y={148}
-          width={4}
-          height={4}
-        >
-          <path d="M46.47 148.742h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aC)">
-          <path fill="url(#aD)" d="M43.85 148.742h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aE"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={43}
-        y={83}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M45.16 83.328c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.59-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aE)">
-        <mask
-          id="aF"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={43}
-          y={83}
-          width={4}
-          height={3}
-        >
-          <path d="M46.47 83.328h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aF)">
-          <path fill="url(#aG)" d="M43.85 83.328h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aH"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={43}
-        y={96}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M45.16 96.414c.72 0 1.31.59 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.59-1.31-1.309s.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aH)">
-        <mask
-          id="aI"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={43}
-          y={96}
-          width={4}
-          height={4}
-        >
-          <path d="M46.47 96.414h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aI)">
-          <path fill="url(#aJ)" d="M43.85 96.414h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aK"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={43}
-        y={109}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M45.16 109.5c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aK)">
-        <mask
-          id="aL"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={43}
-          y={109}
-          width={4}
-          height={4}
-        >
-          <path d="M46.47 109.5h-2.62v2.617h2.62V109.5Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aL)">
-          <path fill="url(#aM)" d="M43.85 109.5h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aN"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={56}
-        y={122}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M58.26 122.578c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aN)">
-        <mask
-          id="aO"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={56}
-          y={122}
-          width={4}
-          height={4}
-        >
-          <path d="M59.57 122.578h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aO)">
-          <path fill="url(#aP)" d="M56.95 122.578h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aQ"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={56}
-        y={135}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M58.26 135.656c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aQ)">
-        <mask
-          id="aR"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={56}
-          y={135}
-          width={4}
-          height={4}
-        >
-          <path d="M59.57 135.656h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aR)">
-          <path fill="url(#aS)" d="M56.95 135.656h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aT"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={56}
-        y={148}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M58.26 148.742c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aT)">
-        <mask
-          id="aU"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={56}
-          y={148}
-          width={4}
-          height={4}
-        >
-          <path d="M59.57 148.742h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aU)">
-          <path fill="url(#aV)" d="M56.95 148.742h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aW"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={56}
-        y={83}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M58.26 83.328c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.59-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aW)">
-        <mask
-          id="aX"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={56}
-          y={83}
-          width={4}
-          height={3}
-        >
-          <path d="M59.57 83.328h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#aX)">
-          <path fill="url(#aY)" d="M56.95 83.328h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="aZ"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={56}
-        y={96}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M58.26 96.414c.72 0 1.31.59 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.59-1.31-1.309s.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#aZ)">
-        <mask
-          id="ba"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={56}
-          y={96}
-          width={4}
-          height={4}
-        >
-          <path d="M59.57 96.414h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#ba)">
-          <path fill="url(#bb)" d="M56.95 96.414h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="bc"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={56}
-        y={109}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M58.26 109.5c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bc)">
-        <mask
-          id="bd"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={56}
-          y={109}
-          width={4}
-          height={4}
-        >
-          <path d="M59.57 109.5h-2.62v2.617h2.62V109.5Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bd)">
-          <path fill="url(#be)" d="M56.95 109.5h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="bf"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={70}
-        y={122}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M71.35 122.578c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bf)">
-        <mask
-          id="bg"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={70}
-          y={122}
-          width={3}
-          height={4}
-        >
-          <path d="M72.66 122.578h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bg)">
-          <path fill="url(#bh)" d="M70.04 122.578h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="bi"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={70}
-        y={135}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M71.35 135.656c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bi)">
-        <mask
-          id="bj"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={70}
-          y={135}
-          width={3}
-          height={4}
-        >
-          <path d="M72.66 135.656h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bj)">
-          <path fill="url(#bk)" d="M70.04 135.656h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="bl"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={70}
-        y={148}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M71.35 148.742c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bl)">
-        <mask
-          id="bm"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={70}
-          y={148}
-          width={3}
-          height={4}
-        >
-          <path d="M72.66 148.742h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bm)">
-          <path fill="url(#bn)" d="M70.04 148.742h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="bo"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={70}
-        y={83}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M71.35 83.328c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.59-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bo)">
-        <mask
-          id="bp"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={70}
-          y={83}
-          width={3}
-          height={3}
-        >
-          <path d="M72.66 83.328h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bp)">
-          <path fill="url(#bq)" d="M70.04 83.328h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="br"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={70}
-        y={96}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M71.35 96.414c.72 0 1.31.59 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.59-1.31-1.309s.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#br)">
-        <mask
-          id="bs"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={70}
-          y={96}
-          width={3}
-          height={4}
-        >
-          <path d="M72.66 96.414h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bs)">
-          <path fill="url(#bt)" d="M70.04 96.414h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="bu"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={70}
-        y={109}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M71.35 109.5c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bu)">
-        <mask
-          id="bv"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={70}
-          y={109}
-          width={3}
-          height={4}
-        >
-          <path d="M72.66 109.5h-2.62v2.617h2.62V109.5Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bv)">
-          <path fill="url(#bw)" d="M70.04 109.5h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="bx"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={24}
-        y={116}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M25.51 116.039c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bx)">
-        <mask
-          id="by"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={24}
-          y={116}
-          width={3}
-          height={3}
-        >
-          <path d="M26.82 116.039H24.2v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#by)">
-          <path fill="url(#bz)" d="M24.2 116.039h2.61v2.607H24.2z" />
-        </g>
-      </g>
-      <mask
-        id="bA"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={24}
-        y={129}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M25.51 129.125c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bA)">
-        <mask
-          id="bB"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={24}
-          y={129}
-          width={3}
-          height={3}
-        >
-          <path d="M26.82 129.125H24.2v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bB)">
-          <path fill="url(#bC)" d="M24.2 129.125h2.61v2.607H24.2z" />
-        </g>
-      </g>
-      <mask
-        id="bD"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={24}
-        y={142}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M25.51 142.195c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bD)">
-        <mask
-          id="bE"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={24}
-          y={142}
-          width={3}
-          height={3}
-        >
-          <path d="M26.82 142.195H24.2v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bE)">
-          <path fill="url(#bF)" d="M24.2 142.195h2.61v2.607H24.2z" />
-        </g>
-      </g>
-      <mask
-        id="bG"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={24}
-        y={155}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M25.51 155.281c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bG)">
-        <mask
-          id="bH"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={24}
-          y={155}
-          width={3}
-          height={3}
-        >
-          <path d="M26.82 155.281H24.2v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bH)">
-          <path fill="url(#bI)" d="M24.2 155.281h2.61v2.607H24.2z" />
-        </g>
-      </g>
-      <mask
-        id="bJ"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={24}
-        y={89}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M25.51 92.484a1.31 1.31 0 1 0 .002-2.618 1.31 1.31 0 0 0-.002 2.618Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bJ)">
-        <mask
-          id="bK"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={24}
-          y={89}
-          width={3}
-          height={4}
-        >
-          <path d="M26.82 89.867H24.2v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bK)">
-          <path fill="url(#bL)" d="M24.2 89.867h2.61v2.607H24.2z" />
-        </g>
-      </g>
-      <mask
-        id="bM"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={24}
-        y={102}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M25.51 105.57a1.31 1.31 0 1 0 .002-2.618 1.31 1.31 0 0 0-.002 2.618Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bM)">
-        <mask
-          id="bN"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={24}
-          y={102}
-          width={3}
-          height={4}
-        >
-          <path d="M26.82 102.953H24.2v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bN)">
-          <path fill="url(#bO)" d="M24.2 102.953h2.61v2.607H24.2z" />
-        </g>
-      </g>
-      <mask
-        id="bP"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={37}
-        y={116}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M38.61 116.039c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bP)">
-        <mask
-          id="bQ"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={37}
-          y={116}
-          width={3}
-          height={3}
-        >
-          <path d="M39.92 116.039H37.3v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bQ)">
-          <path fill="url(#bR)" d="M37.3 116.039h2.61v2.607H37.3z" />
-        </g>
-      </g>
-      <mask
-        id="bS"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={37}
-        y={129}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M38.61 129.125c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bS)">
-        <mask
-          id="bT"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={37}
-          y={129}
-          width={3}
-          height={3}
-        >
-          <path d="M39.92 129.125H37.3v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bT)">
-          <path fill="url(#bU)" d="M37.3 129.125h2.61v2.607H37.3z" />
-        </g>
-      </g>
-      <mask
-        id="bV"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={37}
-        y={142}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M38.61 142.195c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bV)">
-        <mask
-          id="bW"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={37}
-          y={142}
-          width={3}
-          height={3}
-        >
-          <path d="M39.92 142.195H37.3v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bW)">
-          <path fill="url(#bX)" d="M37.3 142.195h2.61v2.607H37.3z" />
-        </g>
-      </g>
-      <mask
-        id="bY"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={37}
-        y={155}
-        width={3}
-        height={3}
-      >
-        <path
-          d="M38.61 155.281c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#bY)">
-        <mask
-          id="bZ"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={37}
-          y={155}
-          width={3}
-          height={3}
-        >
-          <path d="M39.92 155.281H37.3v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#bZ)">
-          <path fill="url(#ca)" d="M37.3 155.281h2.61v2.607H37.3z" />
-        </g>
-      </g>
-      <mask
-        id="cb"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={37}
-        y={89}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M38.61 92.484a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.001 2.618Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cb)">
-        <mask
-          id="cc"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={37}
-          y={89}
-          width={3}
-          height={4}
-        >
-          <path d="M39.92 89.867H37.3v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cc)">
-          <path fill="url(#cd)" d="M37.3 89.867h2.61v2.607H37.3z" />
-        </g>
-      </g>
-      <mask
-        id="ce"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={37}
-        y={102}
-        width={3}
-        height={4}
-      >
-        <path
-          d="M38.61 105.57a1.31 1.31 0 1 0 .001-2.618 1.31 1.31 0 0 0-.001 2.618Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#ce)">
-        <mask
-          id="cf"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={37}
-          y={102}
-          width={3}
-          height={4}
-        >
-          <path d="M39.92 102.953H37.3v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cf)">
-          <path fill="url(#cg)" d="M37.3 102.953h2.61v2.607H37.3z" />
-        </g>
-      </g>
-      <mask
-        id="ch"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={50}
-        y={116}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M51.71 116.039c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#ch)">
-        <mask
-          id="ci"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={50}
-          y={116}
-          width={4}
-          height={3}
-        >
-          <path d="M53.02 116.039H50.4v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#ci)">
-          <path fill="url(#cj)" d="M50.399 116.039h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="ck"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={50}
-        y={129}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M51.71 129.125c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#ck)">
-        <mask
-          id="cl"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={50}
-          y={129}
-          width={4}
-          height={3}
-        >
-          <path d="M53.02 129.125H50.4v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cl)">
-          <path fill="url(#cm)" d="M50.399 129.125h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="cn"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={50}
-        y={142}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M51.71 142.195c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cn)">
-        <mask
-          id="co"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={50}
-          y={142}
-          width={4}
-          height={3}
-        >
-          <path d="M53.02 142.195H50.4v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#co)">
-          <path fill="url(#cp)" d="M50.399 142.195h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="cq"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={50}
-        y={155}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M51.71 155.281c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cq)">
-        <mask
-          id="cr"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={50}
-          y={155}
-          width={4}
-          height={3}
-        >
-          <path d="M53.02 155.281H50.4v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cr)">
-          <path fill="url(#cs)" d="M50.399 155.281h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="ct"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={50}
-        y={89}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M51.71 89.867c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.59-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#ct)">
-        <mask
-          id="cu"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={50}
-          y={89}
-          width={4}
-          height={4}
-        >
-          <path d="M53.02 89.867H50.4v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cu)">
-          <path fill="url(#cv)" d="M50.399 89.867h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="cw"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={50}
-        y={102}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M51.71 102.953c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cw)">
-        <mask
-          id="cx"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={50}
-          y={102}
-          width={4}
-          height={4}
-        >
-          <path d="M53.02 102.953H50.4v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cx)">
-          <path fill="url(#cy)" d="M50.399 102.953h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="cz"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={63}
-        y={116}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M64.8 116.039c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cz)">
-        <mask
-          id="cA"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={63}
-          y={116}
-          width={4}
-          height={3}
-        >
-          <path d="M66.12 116.039H63.5v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cA)">
-          <path fill="url(#cB)" d="M63.5 116.039h2.61v2.607H63.5z" />
-        </g>
-      </g>
-      <mask
-        id="cC"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={63}
-        y={129}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M64.8 129.125c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cC)">
-        <mask
-          id="cD"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={63}
-          y={129}
-          width={4}
-          height={3}
-        >
-          <path d="M66.12 129.125H63.5v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cD)">
-          <path fill="url(#cE)" d="M63.5 129.125h2.61v2.607H63.5z" />
-        </g>
-      </g>
-      <mask
-        id="cF"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={63}
-        y={142}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M64.8 142.195c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cF)">
-        <mask
-          id="cG"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={63}
-          y={142}
-          width={4}
-          height={3}
-        >
-          <path d="M66.12 142.195H63.5v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cG)">
-          <path fill="url(#cH)" d="M63.5 142.195h2.61v2.607H63.5z" />
-        </g>
-      </g>
-      <mask
-        id="cI"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={63}
-        y={155}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M64.8 155.281c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cI)">
-        <mask
-          id="cJ"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={63}
-          y={155}
-          width={4}
-          height={3}
-        >
-          <path d="M66.12 155.281H63.5v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cJ)">
-          <path fill="url(#cK)" d="M63.5 155.281h2.61v2.607H63.5z" />
-        </g>
-      </g>
-      <mask
-        id="cL"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={63}
-        y={89}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M64.8 89.867c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.59-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cL)">
-        <mask
-          id="cM"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={63}
-          y={89}
-          width={4}
-          height={4}
-        >
-          <path d="M66.12 89.867H63.5v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cM)">
-          <path fill="url(#cN)" d="M63.5 89.867h2.61v2.607H63.5z" />
-        </g>
-      </g>
-      <mask
-        id="cO"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={63}
-        y={102}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M64.8 102.953c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cO)">
-        <mask
-          id="cP"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={63}
-          y={102}
-          width={4}
-          height={4}
-        >
-          <path d="M66.12 102.953H63.5v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cP)">
-          <path fill="url(#cQ)" d="M63.5 102.953h2.61v2.607H63.5z" />
-        </g>
-      </g>
-      <mask
-        id="cR"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={76}
-        y={116}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M77.9 116.039c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cR)">
-        <mask
-          id="cS"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={76}
-          y={116}
-          width={4}
-          height={3}
-        >
-          <path d="M79.21 116.039h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cS)">
-          <path fill="url(#cT)" d="M76.59 116.039h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="cU"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={76}
-        y={129}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M77.9 129.125c.72 0 1.31.589 1.31 1.308 0 .72-.59 1.309-1.31 1.309-.72 0-1.31-.589-1.31-1.309 0-.719.59-1.308 1.31-1.308Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cU)">
-        <mask
-          id="cV"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={76}
-          y={129}
-          width={4}
-          height={3}
-        >
-          <path d="M79.21 129.125h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cV)">
-          <path fill="url(#cW)" d="M76.59 129.125h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="cX"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={76}
-        y={142}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M77.9 142.195c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#cX)">
-        <mask
-          id="cY"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={76}
-          y={142}
-          width={4}
-          height={3}
-        >
-          <path d="M79.21 142.195h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#cY)">
-          <path fill="url(#cZ)" d="M76.59 142.195h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="da"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={76}
-        y={155}
-        width={4}
-        height={3}
-      >
-        <path
-          d="M77.9 155.281c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.589-1.31-1.308 0-.719.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#da)">
-        <mask
-          id="db"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={76}
-          y={155}
-          width={4}
-          height={3}
-        >
-          <path d="M79.21 155.281h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#db)">
-          <path fill="url(#dc)" d="M76.59 155.281h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="dd"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={76}
-        y={89}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M77.9 89.867c.72 0 1.31.59 1.31 1.309s-.59 1.308-1.31 1.308c-.72 0-1.31-.59-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#dd)">
-        <mask
-          id="de"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={76}
-          y={89}
-          width={4}
-          height={4}
-        >
-          <path d="M79.21 89.867h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#de)">
-          <path fill="url(#df)" d="M76.59 89.867h2.61v2.607h-2.61z" />
-        </g>
-      </g>
-      <mask
-        id="dg"
-        style={{
-          maskType: "luminance",
-        }}
-        maskUnits="userSpaceOnUse"
-        x={76}
-        y={102}
-        width={4}
-        height={4}
-      >
-        <path
-          d="M77.9 102.953c.72 0 1.31.589 1.31 1.309 0 .719-.59 1.308-1.31 1.308-.72 0-1.31-.589-1.31-1.308 0-.72.59-1.309 1.31-1.309Z"
-          fill="#fff"
-        />
-      </mask>
-      <g mask="url(#dg)">
-        <mask
-          id="dh"
-          style={{
-            maskType: "luminance",
-          }}
-          maskUnits="userSpaceOnUse"
-          x={76}
-          y={102}
-          width={4}
-          height={4}
-        >
-          <path d="M79.21 102.953h-2.62v2.617h2.62v-2.617Z" fill="#fff" />
-        </mask>
-        <g mask="url(#dh)">
-          <path fill="url(#di)" d="M76.59 102.953h2.61v2.607h-2.61z" />
+        <g mask="url(#mask48_426_42801)">
+          <rect
+            x="6.35181"
+            y="32.4961"
+            width="0.8063"
+            height="0.805348"
+            fill="url(#pattern23)"
+          />
         </g>
       </g>
     </g>
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M81 1c27.74 0 50 32.392 50 69.488 0 47.753-31.03 90.243-50 90.243s-50-42.49-50-90.243C31 33.392 48.21 1 81 1Z"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M7.71418 1C16.2838 1 23.1605 11.0067 23.1605 22.4667C23.1605 37.2191 13.5745 50.3453 7.71418 50.3453C1.85383 50.3453 -7.73218 37.2191 -7.73218 22.4667C-7.73218 11.0067 -2.41554 1 7.71418 1Z"
       fill="#FFCD00"
-      stroke="#000"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke="black"
+      stroke-width="0.617854"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
     <mask
-      id="dj"
-      style={{
-        maskType: "luminance",
-      }}
+      id="mask49_426_42801"
+      style="mask-type:luminance"
       maskUnits="userSpaceOnUse"
-      x={31}
-      y={1}
-      width={100}
-      height={160}
+      x="-8"
+      y="1"
+      width="32"
+      height="50"
     >
       <path
-        d="M81 1c27.74 0 50 32.392 50 69.488 0 47.753-31.03 90.243-50 90.243s-50-42.49-50-90.243C31 33.392 48.21 1 81 1Z"
-        fill="#fff"
+        d="M7.71491 1C16.2846 1 23.1613 11.0067 23.1613 22.4667C23.1613 37.2191 13.5753 50.3453 7.71491 50.3453C1.85457 50.3453 -7.73145 37.2191 -7.73145 22.4667C-7.73145 11.0067 -2.41481 1 7.71491 1Z"
+        fill="white"
       />
     </mask>
-    <g mask="url(#dj)">
+    <g mask="url(#mask49_426_42801)">
       <path
-        d="M81-30.941h-209.97v223.585H81V-30.941Z"
+        d="M7.71455 -8.86719H-57.1509V60.2045H7.71455V-8.86719Z"
         fill="#FFCD00"
-        stroke="#000"
-        strokeWidth={2}
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke="black"
+        stroke-width="0.617854"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M81.01-7.867H-4.11v88.435h85.12V-7.867ZM135.17 80.57H81v87.527h54.17V80.57Z"
-        fill="#fff"
-        stroke="#000"
-        strokeWidth={2}
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        d="M7.71751 -1.73828H-18.5784V25.5818H7.71751V-1.73828Z"
+        fill="white"
+        stroke="black"
+        stroke-width="0.617854"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M24.4487 25.582H7.71411V52.6214H24.4487V25.582Z"
+        fill="white"
+        stroke="black"
+        stroke-width="0.617854"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <mask
-        id="dk"
-        style={{
-          maskType: "luminance",
-        }}
+        id="mask50_426_42801"
+        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
-        x={64}
-        y={118}
-        width={34}
-        height={14}
+        x="2"
+        y="37"
+        width="11"
+        height="5"
       >
         <path
-          d="m81 131.882 16.1-6.652-16.1-6.652-16.08 6.652L81 131.882Z"
-          fill="#fff"
+          d="M7.71216 41.4343L12.6859 39.3792L7.71216 37.3242L2.74463 39.3792L7.71216 41.4343Z"
+          fill="white"
         />
       </mask>
-      <g mask="url(#dk)">
+      <g mask="url(#mask50_426_42801)">
         <mask
-          id="dl"
-          style={{
-            maskType: "luminance",
-          }}
+          id="mask51_426_42801"
+          style="mask-type:luminance"
           maskUnits="userSpaceOnUse"
-          x={64}
-          y={118}
-          width={34}
-          height={14}
+          x="2"
+          y="37"
+          width="11"
+          height="5"
         >
-          <path d="M97.09 118.578H64.92v13.314h32.17v-13.314Z" fill="#fff" />
+          <path
+            d="M12.6804 37.3242H2.74219V41.4374H12.6804V37.3242Z"
+            fill="white"
+          />
         </mask>
-        <g mask="url(#dl)">
-          <path fill="url(#dm)" d="M64.92 118.578h32.01v13.284H64.92z" />
+        <g mask="url(#mask51_426_42801)">
+          <rect
+            x="2.74219"
+            y="37.3242"
+            width="9.88876"
+            height="4.10388"
+            fill="url(#pattern24)"
+          />
         </g>
         <path
-          d="M97.09 118.578H64.92v13.314h32.17v-13.314Z"
-          stroke="#000"
-          strokeWidth={2}
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          d="M12.6821 37.3242H2.7439V41.4374H12.6821V37.3242Z"
+          stroke="black"
+          stroke-width="0.617854"
+          stroke-linecap="round"
+          stroke-linejoin="round"
         />
       </g>
       <path
-        clipRule="evenodd"
-        d="m81 131.882 16.1-6.652-16.1-6.652-16.08 6.652L81 131.882Z"
-        stroke="#000"
-        strokeWidth={2}
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M7.71387 41.4343L12.6876 39.3792L7.71387 37.3242L2.74634 39.3792L7.71387 41.4343Z"
+        stroke="black"
+        stroke-width="0.617854"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </g>
     <path
-      clipRule="evenodd"
-      d="M81 1c27.74 0 50 32.392 50 69.488 0 47.753-31.03 90.243-50 90.243s-50-42.49-50-90.243C31 33.392 48.21 1 81 1Z"
-      stroke="#000"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M7.71418 1C16.2838 1 23.1605 11.0067 23.1605 22.4667C23.1605 37.2191 13.5745 50.3453 7.71418 50.3453C1.85383 50.3453 -7.73218 37.2191 -7.73218 22.4667C-7.73218 11.0067 -2.41554 1 7.71418 1Z"
+      stroke="black"
+      stroke-width="0.617854"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
     <defs>
       <pattern
-        id="d"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dn" transform="scale(.33333)" />
-      </pattern>
-      <pattern
-        id="g"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#do" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="j"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dp" transform="scale(.33333)" />
-      </pattern>
-      <pattern
-        id="m"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dq" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="p"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dr" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="s"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ds" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="v"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dt" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="y"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#du" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="B"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dv" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="E"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dw" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="H"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dw" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="K"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dx" transform="scale(.33333)" />
-      </pattern>
-      <pattern
-        id="N"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="Q"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dz" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="T"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dA" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="W"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dB" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="Z"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dC" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="ac"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dD" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="af"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dA" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="ai"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="al"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dE" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="ao"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dB" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="ar"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dF" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="au"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dD" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="ax"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dG" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aA"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dH" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aD"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dI" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aG"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dB" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aJ"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dJ" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aM"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dD" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="aP"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aS"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aV"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="aY"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dB" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bb"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dK" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="be"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dD" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="bh"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bk"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bn"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bq"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dB" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bt"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dL" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bw"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dD" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="bz"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dM" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="bC"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dN" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bF"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dM" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="bI"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dO" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bL"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dP" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bO"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dP" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bR"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dQ" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="bU"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dR" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="bX"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dS" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="ca"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dT" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cd"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cg"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dy" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cj"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dU" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="cm"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dV" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cp"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dW" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="cs"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dX" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cv"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dY" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cy"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dZ" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cB"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ea" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="cE"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#eb" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cH"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#dW" transform="scale(.25 .33333)" />
-      </pattern>
-      <pattern
-        id="cK"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ec" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cN"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ed" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cQ"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ed" transform="scale(.25)" />
-      </pattern>
-      <pattern
-        id="cT"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ee" transform="scale(.33333)" />
-      </pattern>
-      <pattern
-        id="cW"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ef" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="cZ"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#eg" transform="scale(.33333)" />
-      </pattern>
-      <pattern
-        id="dc"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#eh" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="df"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ei" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="di"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ej" transform="scale(.33333 .25)" />
-      </pattern>
-      <pattern
-        id="dm"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
-        <use xlinkHref="#ek" transform="scale(.02941 .06667)" />
-      </pattern>
-      <image
-        id="dn"
-        width={3}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGElEQVQImWNgYGD4z8jI+J8BCv5DMSoAAGogBADOOU0sAAAAAElFTkSuQmCC"
-      />
-      <image
-        id="do"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAE0lEQVQImWNgYGD4D8UMTAxEAQBcJgIBOOA0jgAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dp"
-        width={3}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAE0lEQVQImWNgYGD4D8UMTAy4AABCGQIBz5M1hwAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dq"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAHklEQVQImWNgQAP/oZiBiYGBgYGJiQkizMTEBJcBAFDSBAvD7SanAAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dr"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFklEQVQImWNgYGD4D8UMTAxIAIWDAgBcWgIDUVOpkQAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="ds"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGklEQVQImWNgYGD4D8UMTAxIgImRkZEBKwAAXKICBtVFODwAAAAASUVORK5CYII="
-      />
-      <image
-        id="dt"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAHUlEQVQImWNkYGD4zwAFTAxIgImBgYGBiQlFDAIAMTIBC5IP0n8AAAAASUVORK5CYII="
-      />
-      <image
-        id="du"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGklEQVQImWNkYGD4zwAFTAxIgImRkZEBKwAAMQIBCE8L0nYAAAAASUVORK5CYII="
-      />
-      <image
-        id="dv"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFklEQVQImWNkYGD4zwAFTAxIAIWDAgAwugEF5+c9zgAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dw"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAF0lEQVQImWNgQAKMDAwM/2EcJmQZFA4AI4YBBZkHAm8AAAAASUVORK5CYII="
-      />
-      <image
-        id="dx"
-        width={3}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAHUlEQVQImU3GoQEAAAgDIOb/P89ikIQkRdFcwHgWc1cEA9GoVgwAAAAASUVORK5CYII="
-      />
-      <image
-        id="dy"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGElEQVQImWNkYGD4z4AAjEwMaABDAAMAAEEmAQZBy535AAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dz"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAH0lEQVQImWNkYGD4z4AAjEwMDAwMjIyMCBF0FQzoAABffwIILmv7WAAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dA"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAH0lEQVQImYXIoQEAMAgDsHT//1wM00QGiiYpZOPLcxnjqQQEWvy8jQAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dB"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAF0lEQVQImWNgQAOMDAwM/5H5TOgqMAQAL9EBBgkZjt0AAAAASUVORK5CYII="
-      />
-      <image
-        id="dC"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAIUlEQVQImWNgwAL+MzEx/WdgYPjPwMDAwAhjQAEjE7pyAKAJBAfLbtUlAAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dD"
-        width={4}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFklEQVQImWNkYGD4z4AAjEwMaABDAAAvwAEG3aZqbQAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dE"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAJUlEQVQImV3JsQ0AMAzDMDr//+wORTOUmyDozBQFSV4UsueK3wFUOwcFAASuKwAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dF"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGklEQVQImWNgQAOMDAwM/5H5TOgqmJiYUMUAMCsBDJ/CjN8AAAAASUVORK5CYII="
-      />
-      <image
-        id="dG"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAJUlEQVQImV3JsQ3AMAzAMMr//+wOQTKUmyDVzsxiQXVjoXeO/H1VAQcIyMzELAAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dH"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAH0lEQVQImWNkYGD4z4AAjEwMDAwMzMzMCBF0FQzoAABgjQIO788MAwAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dI"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAHklEQVQImWNkYGD4z4AAjExwFiMjAwMDAwOGAAYAAEHpAQxDf7gwAAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dJ"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAIUlEQVQImWNgwAL+MzAw/GdiYvrPwMDAwAgVgAFGJnTlAJ/xBAcQ1CL8AAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dK"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGUlEQVQImWNgQAOMDAwM/5H5TIyMjPhVAAA9FAIIl6BengAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dL"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAH0lEQVQImWNgQAOMDAwM/5H5TOgq4ALMzMwMDAwMDAAwEAEPDobf6gAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dM"
-        width={4}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAF0lEQVQImWNgYGD4D8UMDAwMDEwMhAAAWh0CAWVHPkMAAAAASUVORK5CYII="
-      />
-      <image
-        id="dN"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAF0lEQVQImWNgYGD4D8UMDAwMDEwMJAMAfC4CAQcMNKgAAAAASUVORK5CYII="
-      />
-      <image
-        id="dO"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGElEQVQImWNgwAL+QzEDAwMDAxO6LIYAAFpQAgNOfFa6AAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dP"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAG0lEQVQImWNgYGD4D8UMDAwMDEwMaABDAAMAAHxyAgOQzLLmAAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dQ"
-        width={4}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFElEQVQImWNkYGD4z4AAjEwMhAAAL54BBOH7mawAAAAASUVORK5CYII="
-      />
-      <image
-        id="dR"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFElEQVQImWNkYGD4z4AAjEwMJAMAQOIBBB5qTg0AAAAASUVORK5CYII="
-      />
-      <image
-        id="dS"
-        width={4}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAG0lEQVQImWNkYGD4z4AAjEzMzMwQFiMjA1YAADEGARCNriy2AAAAAElFTkSuQmCC"
-      />
-      <image
-        id="dT"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGklEQVQImWNgQAOMDAwM/5H5TDAWExMTdhUAPUQCC6lNYdcAAAAASUVORK5CYII="
-      />
-      <image
-        id="dU"
-        width={4}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGUlEQVQImWNkgID/DAwMDExMTAyMyAJYAQBGIQIH3BWY0AAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dV"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAHUlEQVQImY3BMQEAMBADIc6/6PxQAwVQDcPyzLcD014EAT45zvQAAAAASUVORK5CYII="
-      />
-      <image
-        id="dW"
-        width={4}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAE0lEQVQImWNkgID/UJqBiYEQAAArfwEDUumyFAAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dX"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAHUlEQVQImWNgwAH+MzIy/mdgYPjPCBOAyTChKwUAj3QEA7oe74kAAAAASUVORK5CYII="
-      />
-      <image
-        id="dY"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAJUlEQVQImVXIwQkAMAzDQNn776w8Qgo90EewbCtguaM8SQSu3wBmBAkDE+uAUAAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="dZ"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAHUlEQVQImWNkgID/UJqBiQENMDEwMDAwMWGIIwAAPZ4BC+icDLYAAAAASUVORK5CYII="
-      />
-      <image
-        id="ea"
-        width={4}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAF0lEQVQImWNkgID/UJqBCcZgZGRkwAoAK8cBBulASXsAAAAASUVORK5CYII="
-      />
-      <image
-        id="eb"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAE0lEQVQImWNkgID/UJqBiYFkAAA8sgEDHncsGQAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="ec"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFklEQVQImWNgQAOMUPo/TIAJXQWGAAArsgEF6t894wAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="ed"
-        width={4}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFklEQVQImWNkgID/UJqBiQENYAhgAAA89gEFMBR0oAAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="ee"
-        width={3}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAE0lEQVQImWNkYGD4zwAFTAy4AAAjXwEDVUNZEwAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="ef"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAE0lEQVQImWNkYGD4zwAFTAxEAQAwhgED/TUs1QAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="eg"
-        width={3}
-        height={3}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAAycAAAMnAGTj5aaAAAAFklEQVQImWNkYGD4zwAFTExMTAxYAQAj7wEJQquXqQAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="eh"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAIElEQVQImU3JsQ0AAAjDMJf/f4YJqdmsUAX7mD4DScABI5sBCI74B6cAAAAASUVORK5CYII="
-      />
-      <image
-        id="ei"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAGklEQVQImWNkYGD4zwAFTAxIgImZmZkBKwAAMZIBDkm3zBoAAAAASUVORK5CYII="
-      />
-      <image
-        id="ej"
-        width={3}
-        height={4}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAAycAAAMnAGTj5aaAAAAH0lEQVQImWNkYGD4zwAFTAwMDAzMzMwIzv//cEkEAABtpwQLdZP3hwAAAABJRU5ErkJggg=="
-      />
-      <image
-        id="ek"
-        width={34}
-        height={15}
-        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAPCAYAAACBdR0qAAAACXBIWXMAAAthAAALYQFbeSumAAAAoElEQVRIidVU0Q4DIQhr8f8/WdnLeSHuRCZmy/qkSSmkFQlAkQRJqO7JXLUkAM0IHQIFAFQVJNfsB06kbqYlIvf9PkUceeLsOjnWEQfeyAFQ1py4/bsxASYaD282Xg3HxpZXSvlokP+KJtUhGFdqELt+M6y2qkfoRvPFj86Ppg+R2YZp50HTHaTbtnIl/A5MlKOmeEK11nRzy22thWt+hhe2dzhCzl4CIwAAAABJRU5ErkJggg=="
-      />
+        id="pattern0"
+        patternContentUnits="objectBoundingBox"
+        width="1"
+        height="1"
+      ></pattern>
     </defs>
   </svg>
 );
