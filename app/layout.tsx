@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={alphabeta.className}>
-        <div className="min-h-screen">
+        <div className="min-h-screen flex flex-col">
           {children}
           <Footer />
         </div>

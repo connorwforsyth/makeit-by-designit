@@ -2,7 +2,7 @@ import MakeitLogo from "./Icons/MakeitLogo";
 
 export default function Hero() {
   return (
-    <main className="py-36 max-w-2xl flex flex-col gap-16 px-4">
+    <main className="py-36 max-w-2xl flex flex-col gap-16 px-4 h-full">
       <h1 className="text-5xl flex flex-col gap-4">
         <span className="sr-only">Makeit</span>
         <MakeitLogo aria-hidden="true" />
