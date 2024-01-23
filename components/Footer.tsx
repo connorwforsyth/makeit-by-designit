@@ -4,7 +4,10 @@ import TorresFlag from "./Icons/TorrensFlag";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="w-full pt-8 px-12 pb-16 gap-36 flex border-t ">
+    <footer
+      className="flex flex-col w-full border-t gap-4 px-4 py-8
+    md:flex-row md:gap-36 md:pt-8 md:px-12 md:pb-16"
+    >
       <div className="flex flex-col gap-4">
         <div className="flex gap-2">
           <Image
