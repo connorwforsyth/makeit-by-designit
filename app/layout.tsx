@@ -57,6 +57,19 @@ export default function RootLayout({
         }}
         className={`flex min-h-screen flex-col antialiased ${alphabeta.className}`}
       >
+        {/* Star system with css */}
+        {/* <div
+          style={{
+            position: "fixed",
+            top: "50%",
+            left: "50%",
+            height: "1px",
+            width: "1px",
+            backgroundColor: "var(--text-gray)",
+            borderRadius: "1000",
+            boxShadow: "",
+          }}
+        /> */}
         <Texture />
         {children}
         <Footer />

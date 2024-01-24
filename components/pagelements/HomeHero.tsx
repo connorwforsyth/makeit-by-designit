@@ -5,8 +5,8 @@ import Link from "next/link";
 import DownloadButton from "../vaul";
 export default function Hero() {
   return (
-    <main className="relative m-auto flex h-lvh w-full flex-col gap-8 px-4 py-16 sm:h-auto sm:max-w-lg md:max-w-3xl lg:w-full">
-      <h1 className="flex flex-col gap-0 text-3xl md:gap-2 md:text-6xl">
+    <main className="m-auto flex h-lvh flex-col gap-12 px-4 py-24 sm:h-auto sm:max-w-lg md:max-w-3xl lg:w-full">
+      <h1 className="flex flex-col gap-0 text-3xl md:gap-0.5 md:text-4xl lg:gap-2 lg:text-6xl">
         <div className="relative">
           <div className="w-2/3">
             <MakeitLogo
@@ -27,13 +27,13 @@ export default function Hero() {
           <span>— by Designit</span>
         </div>
       </h1>
-      <div className="flex flex-col gap-8 md:max-w-md">
+      <div className="flex h-full flex-col gap-8 md:max-w-md">
         <p className="text-md flex-grow sm:text-lg md:text-xl">
           Get everyone on board - your team, your users and our squad - for a
           4-hour jam to tackle a real-life problem, creating a prototype that
           can be tested with your customers right away.
         </p>
-        <div className="flex-grow"></div>
+        <div className="h-full" />
         <div className="flex flex-col gap-8">
           <p>
             Our website is still coming soon but if you’d like to know more,
