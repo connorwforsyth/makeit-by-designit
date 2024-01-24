@@ -47,7 +47,7 @@ export default function RootLayout({
         style={{
           backdropFilter: "url(#grainy)",
         }}
-        className={`flex min-h-screen flex-col overflow-x-hidden antialiased ${alphabeta.className}`}
+        className={`flex min-h-screen flex-col antialiased ${alphabeta.className}`}
       >
         <Texture />
         {children}
