@@ -5,11 +5,14 @@ import Link from "next/link";
 import DownloadButton from "../vaul";
 export default function Hero() {
   return (
-    <main className="relative m-auto flex h-full w-full max-w-3xl flex-col gap-4 px-4 ">
-      <h1 className="flex flex-col gap-1 text-4xl lg:text-6xl">
+    <main className="relative m-auto flex h-dvh w-full flex-col  gap-8 px-4 py-16 sm:h-auto sm:max-w-lg md:max-w-3xl lg:w-full">
+      <h1 className="flex flex-col gap-0 text-3xl md:gap-2 md:text-6xl">
         <div className="relative">
           <div className="w-2/3">
-            <MakeitLogo aria-hidden="true" className="h-auto max-h-full" />
+            <MakeitLogo
+              aria-hidden="true"
+              className="h-auto max-h-full shadow-2xl"
+            />
           </div>
           <div
             style={{
@@ -24,8 +27,8 @@ export default function Hero() {
           <span>— by Designit</span>
         </div>
       </h1>
-      <div className="flex max-w-md flex-col gap-4">
-        <p className="flex-grow text-xl">
+      <div className="flex flex-col gap-8 md:max-w-md">
+        <p className="text-md flex-grow sm:text-lg md:text-xl">
           Get everyone on board - your team, your users and our squad - for a
           4-hour jam to tackle a real-life problem, creating a prototype that
           can be tested with your customers right away.
@@ -36,11 +39,11 @@ export default function Hero() {
             Our website is still coming soon but if you’d like to know more,
             download the PDF below or get in touch.
           </p>
-          <div className="flex gap-4">
+          <div className=" flex flex-col gap-4 md:flex-row">
             <Link
               href="/Makeit-by-Designit.pdf"
               download="Makeit - By Designit"
-              className="flex items-center gap-0.5 rounded-full border py-2 pl-4 pr-3 backdrop-blur-sm transition-all hover:bg-white hover:text-black"
+              className="hover:bg-white hover:text-black flex items-center justify-center gap-0.5 rounded-full border py-2.5 pl-4 pr-3 backdrop-blur-sm transition-all"
             >
               Download PDF
               <span>
@@ -49,7 +52,7 @@ export default function Hero() {
             </Link>
             <Link
               href="mailto:connor.w.forsyth@gmail.com?subject=Makeit%20by%20Designit:"
-              className="flex items-center gap-0.5 rounded-full border py-2 pl-4 pr-3 transition-all hover:bg-white hover:text-black"
+              className="hover:bg-white hover:text-black flex items-center justify-center gap-0.5 rounded-full border py-2.5 pl-4 pr-3 transition-all"
             >
               Get in touch
               <span>
