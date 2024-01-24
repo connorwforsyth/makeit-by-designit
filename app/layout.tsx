@@ -45,12 +45,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.webmanifest" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
           content-="black-translucent"
         />
-        <meta name="viewport" content="initial-scale=1" viewport-fit="cover" />
       </head>
       <body
         style={{
