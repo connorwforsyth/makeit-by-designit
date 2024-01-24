@@ -49,7 +49,7 @@ export default function RootLayout({
           name="apple-mobile-web-app-status-bar-style"
           content-="black-translucent"
         />
-        <meta name="viewport" content="initial-scale=1, viewport-fit=cpver" />
+        <meta name="viewport" content="initial-scale=1" viewport-fit="cover" />
       </head>
       <body
         style={{
