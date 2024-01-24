@@ -8,3 +8,6 @@
   --text-gray: #9a9a9a;
   --logo-blue: #3232e0;
 }
+
+@media screen and (display-mode: standalone) {
+}

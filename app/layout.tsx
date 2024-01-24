@@ -43,6 +43,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content-="black-translucent"
+        />
+        <meta name="viewport" content="initial-scale=1, viewport-fit=cpver" />
+      </head>
       <body
         style={{
           backdropFilter: "url(#grainy)",
