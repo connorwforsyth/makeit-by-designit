@@ -44,6 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="manifest" href="/site.manifest" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
           content-="black-translucent"
