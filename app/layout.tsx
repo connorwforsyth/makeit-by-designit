@@ -11,12 +11,12 @@ export const metadata: Metadata = {
   title: "Makeit — By Designit",
   description:
     "Your team, your users and our squad, creating a prototype that can be tested with your customers right away.",
-  metadataBase: new URL("https://makeit-by-designit.vercel.app/"),
+  metadataBase: new URL("https://makeitbydesignit.com/"),
   openGraph: {
     title: "Makeit",
     description:
       "Our team, your users and our squad, creating a prototype that can be tested with your customers right away.",
-    url: "https://makeit.designit.com",
+    url: "https://makeitbydesignit.com",
     siteName: "Makeit — by Designit",
     images: [
       {
