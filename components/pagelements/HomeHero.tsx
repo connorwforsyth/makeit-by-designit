@@ -35,24 +35,24 @@ export default function Hero() {
         </p>
         <div className="h-full" />
         <div className="flex flex-col gap-8">
-          <p>
+          {/* <p>
             Our website is still coming soon but if you’d like to know more,
             download the PDF below or get in touch.
-          </p>
+          </p> */}
           <div className=" flex flex-col gap-4 md:flex-row">
-            <Link
+            {/* <Link
               href="/Makeit-by-Designit.pdf"
               download="Makeit - By Designit"
-              className="hover:bg-white hover:text-black flex items-center justify-center gap-0.5 rounded-full border py-2.5 pl-4 pr-3 backdrop-blur-sm transition-all"
+              className="flex items-center justify-center gap-0.5 rounded-full border py-2.5 pl-4 pr-3 backdrop-blur-sm transition-all hover:bg-white hover:text-black"
             >
               Download PDF
               <span>
                 <Download />
               </span>
-            </Link>
+            </Link> */}
             <Link
-              href="mailto:connor.w.forsyth@gmail.com?subject=Makeit%20by%20Designit:"
-              className="hover:bg-white hover:text-black flex items-center justify-center gap-0.5 rounded-full border py-2.5 pl-4 pr-3 transition-all"
+              href="mailto:joff.outlaw@designit.com?subject=Makeit%20by%20Designit:"
+              className="flex items-center justify-center gap-0.5 rounded-full border py-2.5 pl-4 pr-3 transition-all hover:bg-white hover:text-black"
             >
               Get in touch
               <span>
