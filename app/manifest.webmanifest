@@ -1,6 +1,6 @@
 {
     "display": "standalone",
     "short_name": "Makeit",
-    "theme_color": "141414",
+    "theme_color": "#141414",
     "background_color": "#141414"
 }
