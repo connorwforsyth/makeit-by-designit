@@ -6,7 +6,7 @@ const FaceIcon = ({ className }: { className: string }) => (
     width={162}
     height={159}
     src="/iconsvgs/usergroup.svg"
-    className={className}
+    className={`${className}`}
   />
 );
 

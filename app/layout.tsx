@@ -42,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="scroll-smooth" lang="en">
       <head>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="apple-mobile-web-app-capable" content="yes"></meta>
@@ -55,7 +55,7 @@ export default function RootLayout({
         style={{
           backdropFilter: "url(#grainy)",
         }}
-        className={`flex min-h-screen flex-col antialiased ${alphabeta.className}`}
+        className={` flex flex-col antialiased ${alphabeta.className}`}
       >
         {/* Star system with css */}
         {/* <div
