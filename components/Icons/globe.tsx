@@ -1,6 +1,7 @@
 export default function Globe() {
   return (
     <svg
+      className=""
       width="1512"
       height="224"
       viewBox="0 0 1512 224"

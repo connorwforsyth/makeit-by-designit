@@ -3,6 +3,7 @@ import Hero from "@/components/pagelements/HomeHero";
 import Illustrations from "@/components/illustrations";
 import { HowItWorksTable, HowItWorksItem } from "@/components/HowitWorks";
 import SignUp from "@/components/signup-form";
+import Globe from "@/components/Icons/globe";
 export default function Home() {
   return (
     <div className="relative flex min-h-screen w-full flex-grow flex-col items-center overflow-x-clip py-16">
@@ -51,6 +52,7 @@ By the end of the session we’ll have created a testable prototype - this could
             />
           </HowItWorksTable>
         </div>
+        <Globe />
         <div className="sm:max-w-lg md:max-w-3xl lg:w-full">
           <SignUp />
         </div>

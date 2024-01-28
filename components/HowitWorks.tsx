@@ -5,17 +5,17 @@ export interface TableProps {
 }
 
 export function HowItWorksTable({ children }: { children: React.ReactNode }) {
-  return <ol className="w-full border-b">{children}</ol>;
+  return <ol className="max-w-7xl border-b">{children}</ol>;
 }
 
 export function HowItWorksItem({ no, title, description }: TableProps) {
   return (
-    <li className="grid grid-cols-12 border-t">
-      <div className="col-span-1 p-16 text-2xl">{no}</div>
-      <div className="col-span-5 p-16">
-        <h3 className="text-4xl">{title}</h3>
+    <li className="grid grid-cols-1 gap-8 border-t py-12 md:grid-cols-12 md:p-8">
+      <div className="col-span-1 text-2xl">{no}</div>
+      <div className="col-span-1 text-4xl md:col-span-5">
+        <h3>{title}</h3>
       </div>
-      <div className="col-span-6 p-16">
+      <div className="col-span-1 md:col-span-6">
         <p>{description}</p>
       </div>
     </li>
