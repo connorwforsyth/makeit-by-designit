@@ -52,6 +52,7 @@ function SignupForm() {
       onSubmit={handleForm}
       className="flex w-full max-w-md flex-col gap-8 text-left placeholder:text-gray-300 "
     >
+      {/* Form step 1 */}
       <div
         className={cn("flex w-full flex-col gap-2", {
           hidden: formStep === 1 || formStep === 2,
@@ -118,6 +119,7 @@ function SignupForm() {
         {/* Continue Button */}
         <div className="flex w-full flex-grow justify-center">
           <button
+            type="button"
             onClick={() => setFormStep(1)}
             className="group relative flex items-center justify-center gap-2 overflow-clip rounded-full border-2 p-6 text-6xl transition-all hover:text-black focus:text-black"
           >
@@ -126,6 +128,7 @@ function SignupForm() {
           </button>
         </div>
       </div>
+      {/* Form step 2 */}
       <div
         className={cn("flex w-full flex-col gap-4", {
           hidden: formStep === 0 || formStep === 2,
@@ -133,6 +136,7 @@ function SignupForm() {
       >
         <div className="flex">
           <button
+            type="button"
             onClick={() => setFormStep(0)}
             className="group relative flex items-center justify-center gap-2 overflow-clip rounded-full border-2 border-designit-gray px-4 py-2 text-xl transition-all hover:text-black focus:text-black"
           >
@@ -140,7 +144,7 @@ function SignupForm() {
             Back
           </button>
         </div>
-        <p className="text-2xl">You can reach me via:</p>
+        <p className="text-xl">You can reach me via:</p>
         {/* Email Field */}
         <Form.Field name="email" className="flex gap-2">
           <Form.Label className="text-xl">Email</Form.Label>
@@ -194,6 +198,7 @@ function SignupForm() {
           </Form.Submit>
         </div>
       </div>
+      {/* Step 3 submitted */}
       <div
         className={cn(" p-4 text-center", {
           hidden: formStep === 0 || formStep === 1,
