@@ -37,10 +37,10 @@ export default function Hero() {
         <div className="flex w-full justify-center">
           <Link
             scroll={true}
-            className="flex flex-grow items-center justify-center gap-0.5 rounded-full bg-logo-blue py-2.5 pl-4 pr-3 text-lg transition-all  hover:bg-white hover:text-black sm:flex-grow-0"
+            className="flex flex-grow items-center justify-center gap-2 rounded-full bg-logo-blue text-lg transition-all  hover:bg-white hover:text-black sm:flex-grow-0 px-6 py-3"
             href="#signup-form"
           >
-            Submit Challenge
+            Submit challenge
             <span>
               <Arrow className="mr-1 rotate-90" />
             </span>
