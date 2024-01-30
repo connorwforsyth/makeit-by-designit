@@ -7,9 +7,10 @@ import React from "react";
 import { useState } from "react";
 import motion from "framer-motion";
 import { Toaster, toast } from "sonner";
+import posthog from "posthog-js";
 
 const promise = () =>
-  new Promise((resolve) => setTimeout(() => resolve({ name: "Sonner" }), 2000));
+  new Promise((resolve) => setTimeout(() => resolve({ name: "Sonner" }), 1000));
 
 function SignupForm() {
   // React State to handle multistep form.
@@ -22,14 +23,21 @@ function SignupForm() {
     const formData = new FormData(e.currentTarget);
 
     const body = {
-      Name: formData.get("name"),
-      Company: formData.get("company"),
-      Challenge: formData.get("challenge"),
-      Email: formData.get("email"),
-      Phone: formData.get("phone"),
+      Name: formData.get("name") as string,
+      Company: formData.get("company") as string,
+      Challenge: formData.get("challenge") as string,
+      Email: formData.get("email") as string,
+      Phone: formData.get("phone") as string,
     };
 
     console.log(body);
+
+    posthog.identify(body.Email, {
+      email: body.Email,
+      name: body.Name,
+      company: body.Company,
+      phone: body.Phone,
+    });
 
     const fetchPromise = fetch("/api/submit", {
       method: "POST",
@@ -72,8 +80,8 @@ function SignupForm() {
           <Form.Label className="text-5xl">My name is</Form.Label>
           <Form.Control asChild className="flex flex-grow">
             <input
-                className="px-1 appearance-none rounded-none border-b border-designit-gray bg-transparent text-2xl shadow-white autofill:bg-transparent focus:border-b-white hover:border-b-white transition ease-in-out;"
-                type="text"
+              className="ease-in-out; appearance-none rounded-none border-b border-designit-gray bg-transparent px-1 text-2xl shadow-white transition autofill:bg-transparent hover:border-b-white focus:border-b-white"
+              type="text"
               name="name"
               placeholder="your name"
             />
@@ -83,44 +91,44 @@ function SignupForm() {
         {/* Company Field */}
         <Form.Field name="company" className="flex gap-6 bg-transparent">
           <Form.Label className="text-5xl">from</Form.Label>
-            <Form.Control asChild className="flex flex-grow">
-              <input
-                type="text"
-                name="company"
-                placeholder="your company"
-                required
-                className="px-1 appearance-none rounded-none border-b border-designit-gray bg-transparent text-2xl shadow-white selection:bg-transparent autofill:bg-transparent focus:border-b-white hover:border-b-white transition ease-in-out;"
-                />
-            </Form.Control>
-              <Form.Message
-                match="valueMissing"
-                className="font-semi-bold inline rounded-lg px-2 text-sm text-red-300"
-              >
-                Please enter your company name
-              </Form.Message>
+          <Form.Control asChild className="flex flex-grow">
+            <input
+              type="text"
+              name="company"
+              placeholder="your company"
+              required
+              className="ease-in-out; appearance-none rounded-none border-b border-designit-gray bg-transparent px-1 text-2xl shadow-white transition selection:bg-transparent autofill:bg-transparent hover:border-b-white focus:border-b-white"
+            />
+          </Form.Control>
+          <Form.Message
+            match="valueMissing"
+            className="font-semi-bold inline rounded-lg px-2 text-sm text-red-300"
+          >
+            Please enter your company name
+          </Form.Message>
         </Form.Field>
 
         {/* Challenge Field */}
         <Form.Field name="challenge" className="flex flex-col gap-6">
           <Form.Label className="text-5xl">and my challenge is...</Form.Label>
           <Form.Control asChild className="flex flex-grow">
-              <input
-                type="text"
-                name="challenge"
-                placeholder="incorporating a sustainability focused offering for our subscribers..."
-                required
-                className="px-1 appearance-none rounded-none border-b border-designit-gray bg-transparent text-2xl shadow-white selection:bg-transparent autofill:bg-transparent focus:border-b-white hover:border-b-white transition ease-in-out;"
-                />
-            </Form.Control>
+            <input
+              type="text"
+              name="challenge"
+              placeholder="incorporating a sustainability focused offering for our subscribers..."
+              required
+              className="ease-in-out; appearance-none rounded-none border-b border-designit-gray bg-transparent px-1 text-2xl shadow-white transition selection:bg-transparent autofill:bg-transparent hover:border-b-white focus:border-b-white"
+            />
+          </Form.Control>
         </Form.Field>
         {/* Continue Button */}
-        <div className="flex w-full flex-grow justify-center mt-14">
+        <div className="mt-14 flex w-full flex-grow justify-center">
           <button
             type="button"
             onClick={() => setFormStep(1)}
-            className="group relative flex items-center justify-center gap-8 overflow-clip rounded-full border-2 py-8 text-6xl transition-all hover:text-black focus:text-black px-16 ease-in-out duration-500"
+            className="group relative flex items-center justify-center gap-8 overflow-clip rounded-full border-2 px-16 py-8 text-6xl transition-all duration-500 ease-in-out hover:text-black focus:text-black"
           >
-            <div className="absolute right-full -z-10 h-full w-full bg-white transition-all group-hover:right-0 group-focus:right-0 ease-in-out duration-500" />
+            <div className="absolute right-full -z-10 h-full w-full bg-white transition-all duration-500 ease-in-out group-hover:right-0 group-focus:right-0" />
             Continue <Arrow className="h-auto w-16" />
           </button>
         </div>
@@ -143,7 +151,9 @@ function SignupForm() {
         </div>
         {/* Session Field */}
         <Form.Field name="email" className="flex gap-6">
-          <Form.Label className="text-5xl">Our preferred session is on</Form.Label>
+          <Form.Label className="text-5xl">
+            Our preferred session is on
+          </Form.Label>
           <div className="flex flex-grow flex-col gap-0.5">
             <Form.Control asChild className="flex flex-grow">
               <input
@@ -151,8 +161,8 @@ function SignupForm() {
                 name="session"
                 placeholder="select date"
                 required
-                className="px-1 appearance-none rounded-none border-b border-designit-gray bg-transparent text-2xl shadow-white selection:bg-transparent autofill:bg-transparent focus:border-b-white hover:border-b-white transition ease-in-out;"
-                />
+                className="ease-in-out; appearance-none rounded-none border-b border-designit-gray bg-transparent px-1 text-2xl shadow-white transition selection:bg-transparent autofill:bg-transparent hover:border-b-white focus:border-b-white"
+              />
             </Form.Control>
           </div>
         </Form.Field>
@@ -166,8 +176,8 @@ function SignupForm() {
                 name="email"
                 placeholder="you@yours.com"
                 required
-                className="px-1 appearance-none rounded-none border-b border-designit-gray bg-transparent text-2xl shadow-white selection:bg-transparent autofill:bg-transparent focus:border-b-white hover:border-b-white transition ease-in-out;"
-                />
+                className="ease-in-out; appearance-none rounded-none border-b border-designit-gray bg-transparent px-1 text-2xl shadow-white transition selection:bg-transparent autofill:bg-transparent hover:border-b-white focus:border-b-white"
+              />
             </Form.Control>
             <div>
               <Form.Message
@@ -194,18 +204,18 @@ function SignupForm() {
               type="tel"
               name="phone"
               placeholder="+61"
-              className="px-1 appearance-none rounded-none border-b border-designit-gray bg-transparent text-2xl shadow-white selection:bg-transparent autofill:bg-transparent focus:border-b-white hover:border-b-white transition ease-in-out;"
-              />
+              className="ease-in-out; appearance-none rounded-none border-b border-designit-gray bg-transparent px-1 text-2xl shadow-white transition selection:bg-transparent autofill:bg-transparent hover:border-b-white focus:border-b-white"
+            />
           </Form.Control>
         </Form.Field>
         {/* Submit Button */}
-        <div className="flex w-full flex-grow justify-center mt-14">
+        <div className="mt-14 flex w-full flex-grow justify-center">
           <Form.Submit
             type="submit"
-            className="group relative flex items-center justify-center gap-8 overflow-clip rounded-full border-2 py-8 text-6xl transition-all hover:text-black focus:text-black px-16 ease-in-out duration-500"
+            className="group relative flex items-center justify-center gap-8 overflow-clip rounded-full border-2 px-16 py-8 text-6xl transition-all duration-500 ease-in-out hover:text-black focus:text-black"
           >
-            <div className="absolute right-full -z-10 h-full w-full bg-white transition-all group-hover:right-0 group-focus:right-0 ease-in-out duration-500" />
-              Send <Arrow className="h-auto w-16" />
+            <div className="absolute right-full -z-10 h-full w-full bg-white transition-all duration-500 ease-in-out group-hover:right-0 group-focus:right-0" />
+            Send <Arrow className="h-auto w-16" />
           </Form.Submit>
         </div>
       </div>
