@@ -4,8 +4,8 @@ import "@/styles/globals.css";
 import alphabeta from "@/styles/alphabetaFont";
 import Texture from "@/components/BackgroundTexture";
 import { Toaster, toast } from "sonner";
-const inter = Inter({ subsets: ["latin"] });
 import Footer from "@/components/Footer";
+import { PHProvider } from "./providers";
 
 export const metadata: Metadata = {
   title: "Makeit — By Designit",
@@ -43,22 +43,23 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="en">
-      <head>
-        <link rel="manifest" href="/manifest.webmanifest" />
-        <meta name="apple-mobile-web-app-capable" content="yes"></meta>
-        <meta
-          name="apple-mobile-web-app-status-bar-style"
-          content="black-translucent"
-        />
-      </head>
-      <body
-        style={{
-          backdropFilter: "url(#grainy)",
-        }}
-        className={` flex flex-col antialiased ${alphabeta.className}`}
-      >
-        {/* Star system with css */}
-        {/* <div
+      <PHProvider>
+        <head>
+          <link rel="manifest" href="/manifest.webmanifest" />
+          <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
+        </head>
+        <body
+          style={{
+            backdropFilter: "url(#grainy)",
+          }}
+          className={` flex flex-col antialiased ${alphabeta.className}`}
+        >
+          {/* Star system with css */}
+          {/* <div
           style={{
             position: "fixed",
             top: "50%",
@@ -70,16 +71,17 @@ export default function RootLayout({
             boxShadow: "",
           }}
         /> */}
-        <Texture />
-        {children}
-        <Footer />
-        <Toaster
-          position="bottom-center"
-          closeButton={true}
-          richColors={true}
-          toastOptions={{ classNames: { toast: alphabeta.className } }}
-        />
-      </body>
+          <Texture />
+          {children}
+          <Footer />
+          <Toaster
+            position="bottom-center"
+            closeButton={true}
+            richColors={true}
+            toastOptions={{ classNames: { toast: alphabeta.className } }}
+          />
+        </body>
+      </PHProvider>
     </html>
   );
 }
