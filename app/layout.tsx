@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import alphabeta from "@/styles/alphabetaFont";
 import Texture from "@/components/BackgroundTexture";
-
+import { Toaster, toast } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 import Footer from "@/components/Footer";
 
@@ -73,6 +73,12 @@ export default function RootLayout({
         <Texture />
         {children}
         <Footer />
+        <Toaster
+          position="bottom-center"
+          closeButton={true}
+          richColors={true}
+          toastOptions={{ classNames: { toast: alphabeta.className } }}
+        />
       </body>
     </html>
   );
