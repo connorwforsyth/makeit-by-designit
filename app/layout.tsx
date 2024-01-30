@@ -76,7 +76,6 @@ export default function RootLayout({
           <Footer />
           <Toaster
             position="bottom-center"
-            closeButton={true}
             richColors={true}
             toastOptions={{ classNames: { toast: alphabeta.className } }}
           />
