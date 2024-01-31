@@ -1,6 +1,6 @@
 import Link from "next/link";
-import AboriginalFlag from "./Icons/AboriginalFlag";
-import TorresFlag from "./Icons/TorrensFlag";
+import AboriginalFlag from "../Icons/AboriginalFlag";
+import TorresFlag from "../Icons/TorrensFlag";
 import Image from "next/image";
 
 export default function Footer() {
