@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Hero from "@/components/pagelements/HomeHero";
 import Illustrations from "@/components/illustrations";
-import { HowItWorksTable, HowItWorksItem } from "@/components/HowitWorks";
-import SignUp from "@/components/signup-form";
+import {
+  HowItWorksTable,
+  HowItWorksItem,
+} from "@/components/pagelements/HowitWorks";
+import SignUp from "@/components/pagelements/signup-form";
 import Globe from "@/components/Icons/globe";
 export default function Home() {
   return (

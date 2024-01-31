@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 import alphabeta from "@/styles/alphabetaFont";
 import Texture from "@/components/BackgroundTexture";
 import { Toaster, toast } from "sonner";
-import Footer from "@/components/Footer";
+import Footer from "@/components/pagelements/Footer";
 import { PHProvider } from "./providers";
 
 export const metadata: Metadata = {

@@ -1,0 +1,9 @@
+{
+  "editor.wordWrap": "on",
+  "editor.fontVariations": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
