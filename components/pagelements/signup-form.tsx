@@ -7,14 +7,14 @@ import { useState } from "react";
 import motion from "framer-motion";
 import { Toaster, toast } from "sonner";
 import posthog from "posthog-js";
-import { compareAsc, format, formatDate } from "date-fns";
+import { compareAsc, format, formatDate, setDay } from "date-fns";
 
 const makeItDates: Date[] = [
   // Year, Month, Date
-  new Date(2024, 3, 1, 13),
-  new Date(2024, 5, 1, 13),
-  new Date(2024, 9, 1, 13),
-  new Date(2024, 11, 1, 13),
+  setDay(new Date(2024, 2, 20, 13), 5),
+  setDay(new Date(2024, 5, 1, 13), 5),
+  setDay(new Date(2024, 7, 1, 13), 5),
+  setDay(new Date(2024, 9, 1, 13), 5),
 ];
 
 function DatePicker({ className }: { className: string }) {
@@ -154,10 +154,10 @@ function SignupForm() {
           <button
             type="button"
             onClick={() => setFormStep(1)}
-            className="group relative flex w-full items-center justify-center gap-2 overflow-clip rounded-full border-2 py-2 text-4xl transition-all duration-500 ease-in-out hover:text-black focus:text-black sm:w-auto md:gap-8 md:px-16 md:py-8 md:text-6xl lg:px-16"
+            className="group relative flex w-full items-center justify-center gap-2 overflow-clip rounded-full border-2 py-2 text-4xl transition-all duration-500 ease-in-out hover:text-black focus:text-black md:w-auto md:gap-8 md:px-16 md:py-8 md:text-6xl lg:px-16"
           >
             <div className="absolute inset-0 right-full -z-10 bg-white transition-all duration-500 ease-in-out group-hover:right-0 group-focus:right-0" />
-            Continue <Arrow className="h-auto w-12 md:w-16" />
+            Continue <Arrow className="h-auto w-16" />
           </button>
         </div>
       </div>
@@ -223,7 +223,7 @@ function SignupForm() {
           <div className="mt-14 flex justify-center">
             <Form.Submit
               type="submit"
-              className="group relative flex w-full items-center justify-center gap-2 overflow-clip rounded-full border-2 py-2 text-4xl transition-all duration-500 ease-in-out hover:text-black focus:text-black sm:w-auto md:gap-8 md:px-16 md:py-8 md:text-6xl lg:px-16"
+              className="group relative flex w-full items-center justify-center gap-2 overflow-clip rounded-full border-2 py-2 text-4xl transition-all duration-500 ease-in-out hover:text-black focus:text-black md:w-auto md:gap-8 md:px-16 md:py-8 md:text-6xl lg:px-16"
             >
               <div className="absolute right-full -z-10 h-full w-full  bg-white transition-all duration-500 ease-in-out group-hover:right-0  group-focus:right-0" />
               Send <Arrow className="h-auto w-16" />
