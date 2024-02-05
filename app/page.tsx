@@ -22,7 +22,7 @@ export default function Home() {
           <p className="text-lg">
             Call it a hackathon, design sprint, innovation sprint, strategy
             sprint. The main thing is that we get in a room together, and
-            whiteboard our your problem with the goal of building something
+            whiteboard out your problem with the goal of building something
             testable in four hours.
           </p>
         </div>
