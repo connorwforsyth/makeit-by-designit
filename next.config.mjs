@@ -25,7 +25,6 @@ const nextConfig = {
             key: "X-Content-Type-Options",
             value: "nosniff",
           },
-          { key: "Content-Security-Policy", value: "self" },
           {
             key: "Referrer-Policy",
             value: "no-referrer",
