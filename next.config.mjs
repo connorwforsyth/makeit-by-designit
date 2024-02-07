@@ -5,8 +5,8 @@ const nextConfig = {
   async headers() {
     const cspHeader = `
     default-src 'self';
-    script-src 'self' 'unsafe-eval' 'unsafe-inline';
-    style-src 'self' 'unsafe-inline';
+    script-src 'self';
+    style-src 'self';
     img-src 'self' blob: data:;
     font-src 'self';
     object-src 'none';
@@ -15,7 +15,9 @@ const nextConfig = {
     frame-ancestors 'none';
     block-all-mixed-content;
     upgrade-insecure-requests;
-`;
+`
+      .trim()
+      .replace(/\n/g, " ");
     return [
       {
         source: "/(.*)",
@@ -31,7 +33,7 @@ const nextConfig = {
           },
           {
             key: "Content-Security-Policy",
-            value: cspHeader.replace(/\n/g, ""),
+            value: cspHeader,
           },
         ],
       },
