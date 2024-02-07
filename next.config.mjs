@@ -3,7 +3,7 @@
 // We may need to remove / evolve these CSP headers.
 const nextConfig = {
   async headers() {
-    const cspHeader = ""
+    const cspHeader = "" 
       //     `
       //     default-src 'self';
       //     script-src 'self';
