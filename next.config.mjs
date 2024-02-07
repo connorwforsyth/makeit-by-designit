@@ -28,6 +28,7 @@ const nextConfig = {
             key: "X-Content-Type-Options",
             value: "nosniff",
           },
+          // Removed for now as this was messing with analytics.
           // {
           //   key: "Referrer-Policy",
           //   value: "no-referrer",
