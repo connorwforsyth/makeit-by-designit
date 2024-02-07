@@ -3,7 +3,7 @@
 // We may need to remove / evolve these CSP headers.
 const nextConfig = {
   async headers() {
-    const cspHeader = "" 
+    const cspHeader = ""
       //     `
       //     default-src 'self';
       //     script-src 'self';
@@ -28,10 +28,10 @@ const nextConfig = {
             key: "X-Content-Type-Options",
             value: "nosniff",
           },
-          {
-            key: "Referrer-Policy",
-            value: "no-referrer",
-          },
+          // {
+          //   key: "Referrer-Policy",
+          //   value: "no-referrer",
+          // },
           {
             key: "Content-Security-Policy",
             value: cspHeader,
