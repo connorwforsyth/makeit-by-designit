@@ -3,10 +3,9 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import alphabeta from "@/styles/alphabetaFont";
 import Texture from "@/components/BackgroundTexture";
-import { Toaster, toast } from "sonner";
-import Footer from "@/components/pagelements/Footer";
-import { PHProvider } from "./providers";
-import { Analytics } from "@vercel/analytics/react";
+
+const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Makeit — By Designit",
@@ -72,17 +71,10 @@ export default function RootLayout({
             boxShadow: "",
           }}
         /> */}
-          <Texture />
-          <Toaster
-            position="bottom-center"
-            richColors={true}
-            toastOptions={{ classNames: { toast: alphabeta.className } }}
-          />
-          {children}
-          <Footer />
-          <Analytics />
-        </body>
-      </PHProvider>
+        <Texture />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
