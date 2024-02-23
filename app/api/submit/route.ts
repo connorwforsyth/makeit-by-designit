@@ -4,21 +4,6 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(req: NextRequest, res: NextResponse) {
   try {
     const data = await req.json();
-    console.log(data);
-    // this is what I'm recievving back but it's still not workng. testData is working.{
-    //   Name: 'Test',
-    //   Company: 'con',
-    //   Challenge: 'dasd',
-    //   Email: 'connor.forsyth@email.com',
-    //   Phone: '234234'
-    // }
-    const testData = {
-      Name: "John",
-      Company: "Fast Company",
-      Challenge: "Here is my challenge",
-      Email: "john@email.com",
-      Phone: "+61400891285",
-    };
 
     const response = await fetch(
       "https://api.airtable.com/v0/appiQwkJeriH8srVq/Entries",
