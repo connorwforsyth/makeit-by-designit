@@ -6,6 +6,7 @@ import Texture from "@/components/BackgroundTexture";
 import { Toaster, toast } from "sonner";
 import Footer from "@/components/pagelements/Footer";
 import { PHProvider } from "./providers";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Makeit — By Designit",
@@ -71,16 +72,10 @@ export default function RootLayout({
             boxShadow: "",
           }}
         /> */}
-          <Texture />
-          {children}
-          <Footer />
-          <Toaster
-            position="bottom-center"
-            richColors={true}
-            toastOptions={{ classNames: { toast: alphabeta.className } }}
-          />
-        </body>
-      </PHProvider>
+        <Texture />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
