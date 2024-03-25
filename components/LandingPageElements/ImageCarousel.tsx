@@ -4,8 +4,8 @@ import path from "path";
 import { cn } from "@/lib/utils";
 
 type ImageType = {
-  src?: string;
-  key?: number;
+  src?: any;
+  key?: any;
 };
 
 export default function ImageCarousel() {
