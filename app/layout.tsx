@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 import alphabeta from "@/styles/alphabetaFont";
 import Texture from "@/components/BackgroundTexture";
 import { Toaster, toast } from "sonner";
-import Footer from "@/components/pagelements/Footer";
+import Footer from "@/components/LandingPageElements/Footer";
 import { PHProvider } from "./providers";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -44,37 +44,25 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="en">
-      <PHProvider>
-        <head>
-          <link rel="manifest" href="/manifest.webmanifest" />
-          <meta name="apple-mobile-web-app-capable" content="yes"></meta>
-          <meta
-            name="apple-mobile-web-app-status-bar-style"
-            content="black-translucent"
-          />
-        </head>
-        <body
-          style={{
-            backdropFilter: "url(#grainy)",
-          }}
-          className={` flex flex-col antialiased ${alphabeta.className}`}
-        >
-          {/* Star system with css */}
-          {/* <div
-          style={{
-            position: "fixed",
-            top: "50%",
-            left: "50%",
-            height: "1px",
-            width: "1px",
-            backgroundColor: "var(--text-gray)",
-            borderRadius: "1000",
-            boxShadow: "",
-          }}
-        /> */}
-        <Texture />
-        {children}
-        <Footer />
+      <head>
+        <link rel="manifest" href="/manifest.webmanifest" />
+        <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
+      </head>
+      <body
+        style={{
+          backdropFilter: "url(#grainy)",
+        }}
+        className={` flex flex-col antialiased ${alphabeta.className}`}
+      >
+        <PHProvider>
+          <Texture />
+          {children}
+          <Footer />
+        </PHProvider>
       </body>
     </html>
   );

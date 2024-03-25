@@ -1,12 +1,14 @@
 import Image from "next/image";
-import Hero from "@/components/pagelements/HomeHero";
+import Hero from "@/components/LandingPageElements/HomeHero";
 import Illustrations from "@/components/illustrations";
 import {
   HowItWorksTable,
   HowItWorksItem,
-} from "@/components/pagelements/HowitWorks";
-import SignUp from "@/components/pagelements/signup-form";
+} from "@/components/LandingPageElements/HowitWorks";
+import SignUp from "@/components/LandingPageElements/signup-form";
 import Globe from "@/components/Icons/globe";
+import ThreeBanner from "@/components/LandingPageElements/ThreeBanners";
+import ImageCarousel from "@/components/LandingPageElements/ImageCarousel";
 export default function Home() {
   return (
     <div className="relative flex min-h-screen w-full flex-grow flex-col items-center overflow-x-clip py-16">
@@ -26,6 +28,7 @@ export default function Home() {
             testable in four hours.
           </p>
         </div>
+        <ThreeBanner />
         {/* table */}
         <div className="py-12">
           <HowItWorksTable>
@@ -54,6 +57,20 @@ By the end of the session we’ll have created a testable prototype - this could
               description="A design session isn’t complete without a post design meal. Let’s eat some pizza!"
             />
           </HowItWorksTable>
+        </div>
+        <ImageCarousel />
+        <div className="text-md mx-auto w-full max-w-2xl text-pretty">
+          <h2 className="uppercase text-designit-gray">About Designit</h2>
+          <p>
+            Designit is a global innovation and design consultancy. We help some
+            of the worlds most successful organisations improve the products and
+            services. We bring strategy, design, and technology expertise
+            together to create measurable, positive change for our clients’
+            business.
+            <br />
+            <br />
+            We believe in creative pragmatism. We Designit.
+          </p>
         </div>
         <Globe />
         <div className="sm:max-w-lg md:max-w-3xl lg:w-full">
