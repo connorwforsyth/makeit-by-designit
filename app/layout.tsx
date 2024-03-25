@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import alphabeta from "@/styles/alphabetaFont";
 import Texture from "@/components/BackgroundTexture";
-import { Toaster, toast } from "sonner";
 import Footer from "@/components/LandingPageElements/Footer";
 import { PHProvider } from "./providers";
 import { Analytics } from "@vercel/analytics/react";
@@ -62,6 +60,7 @@ export default function RootLayout({
           <Texture />
           {children}
           <Footer />
+          <Analytics />
         </PHProvider>
       </body>
     </html>
