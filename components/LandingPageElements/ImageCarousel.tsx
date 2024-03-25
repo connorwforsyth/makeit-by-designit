@@ -14,14 +14,16 @@ export default function ImageCarousel() {
   const imageNames = fs.readdirSync(imagesDirectory);
 
   // Create an array of image objects
-  const images: ImageType[] = imageNames.map((name, index) => ({
-    src: `/carousel/${name}`,
-    key: index,
-  }));
+  const images: ImageType[] = imageNames
+    .filter((name) => !name.includes(".DS_Store"))
+    .map((name, index) => ({
+      src: `/carousel/${name}`,
+      key: index,
+    }));
   console.log(images);
   return (
     <div className="relative">
-      <div className="animate-marquee flex gap-10">
+      <div className="flex animate-marquee gap-10">
         {images
           .sort(() => Math.random() - 0.5)
           .map(({ src, key }: ImageType) => {
@@ -43,7 +45,7 @@ export default function ImageCarousel() {
             );
           })}
       </div>
-      <div className="animate-marquee2 absolute top-0 flex gap-10">
+      <div className="absolute top-0 flex animate-marquee2 gap-10">
         {images
           .sort(() => Math.random() - 0.5)
           .map(({ src, key }: ImageType) => {
