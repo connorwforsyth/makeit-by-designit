@@ -58,7 +58,7 @@ By the end of the session we’ll have created a testable prototype - this could
             />
           </HowItWorksTable>
         </div>
-        <ImageCarousel />
+        {/* <ImageCarousel /> */}
         <div className="text-md mx-auto w-full max-w-2xl text-pretty">
           <h2 className="uppercase text-designit-gray">About Designit</h2>
           <p>
